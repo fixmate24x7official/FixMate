@@ -9,7 +9,7 @@
 :root{--bg:#030405;--surface:#0b0e12;--surface2:#10151b;--surface3:#151b22;--white:#f8fbff;--muted:#d2d8e0;--line:#26313a;--blue:#2296ff;--cyan:#7be7ff;--green:#38d39f;--yellow:#ffd166;--red:#ff647c;--radius:20px;--font:"DM Sans",Inter,ui-sans-serif,system-ui,sans-serif}
 *{box-sizing:border-box}html,body{margin:0;width:100%;min-height:100%;background:#05070a;color:var(--white);font-family:var(--font);-webkit-font-smoothing:antialiased}
 button,input,textarea,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
-.stage{display:flex;flex-wrap:wrap;gap:22px;align-items:flex-start;justify-content:center;padding:26px 16px 60px;min-height:100vh}
+.stage{display:flex;flex-wrap:wrap;gap:1in;align-items:flex-start;justify-content:center;padding:26px 16px 60px;min-height:100vh}
 .stage-label{width:100%;text-align:center;color:#8b97a5;font-size:13px;font-weight:800;letter-spacing:.5px;margin-bottom:-8px;text-transform:uppercase}
 .phone-wrap{display:flex;flex-direction:column;align-items:center;gap:10px}
 .phone-tag{font-size:12px;font-weight:900;letter-spacing:.4px;color:#9fb0c2;background:#11161c;border:1px solid #232b34;padding:6px 14px;border-radius:999px}
@@ -168,6 +168,103 @@ textarea.input{min-height:100px;resize:none}
 @keyframes spin{to{transform:rotate(360deg)}}
 @media(max-width:900px){.stage{flex-direction:column;align-items:center}}
 @media(max-width:430px){.phone{height:92vh}}
+
+.payment-success-content {
+  padding: 50px 24px 30px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment-success-icon {
+  font-size: 72px;
+  line-height: 1;
+  color: #55e889;
+  margin-bottom: 20px;
+}
+
+.payment-success-content h1 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.payment-success-message {
+  margin: 14px 0 24px;
+  line-height: 1.5;
+}
+
+.payment-details-card {
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.payment-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 4px 0;
+}
+
+.payment-details-card hr {
+  margin: 16px 0;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.payment-invoice-btn {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.worker-complete-content {
+  padding: 55px 25px 30px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.worker-complete-icon {
+  font-size: 68px;
+  line-height: 1;
+  color: #55e889;
+  margin-bottom: 20px;
+}
+
+.worker-complete-content h1 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.worker-complete-message {
+  margin: 14px 0 24px;
+  line-height: 1.5;
+}
+
+.worker-earnings-card {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 22px;
+}
+
+.worker-earnings-card .money {
+  margin-top: 10px;
+}
+
+.worker-earnings-btn {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -445,16 +542,44 @@ textarea.input{min-height:100px;resize:none}
 </section>
 
 <section id="c-paysuccess" class="screen">
- <div class="scroll center" style="padding:50px 24px 24px;text-align:center">
-  <div style="font-size:72px;color:#55e889">✓</div>
-  <h1>Payment Successful</h1>
-  <p class="muted">Your payment has been securely recorded.</p>
-  <div class="card" style="width:100%;text-align:left;margin-top:6px">
-   <div class="between"><span class="muted">Amount</span><b id="c-ps-amount">Rs. 2,600</b></div><hr>
-   <div class="between"><span class="muted">Booking ID</span><b id="c-ps-id">FM-2026-00125</b></div>
+  <div class="scroll center payment-success-content">
+
+    <!-- Success Icon -->
+    <div class="payment-success-icon">✓</div>
+
+    <!-- Title -->
+    <h1>Payment Successful</h1>
+
+    <!-- Description -->
+    <p class="muted payment-success-message">
+      Your payment has been securely recorded.
+    </p>
+
+    <!-- Payment Details Card -->
+    <div class="card payment-details-card">
+
+      <div class="payment-row">
+        <span class="muted">Amount</span>
+        <b id="c-ps-amount">Rs. 2,600</b>
+      </div>
+
+      <hr>
+
+      <div class="payment-row">
+        <span class="muted">Booking ID</span>
+        <b id="c-ps-id">FM-2026-00125</b>
+      </div>
+
+    </div>
+
+    <!-- Invoice Button -->
+<button
+  class="btn btn-blue"
+  style="margin-top:18px"
+  onclick="goC('c-invoice')">
+  View Invoice &amp; Receipt
+</button>
   </div>
-  <button class="btn btn-blue" style="margin-top:18px" onclick="goC('c-invoice')">View Invoice &amp; Receipt</button>
- </div>
 </section>
 
 <section id="c-invoice" class="screen">
@@ -755,13 +880,40 @@ textarea.input{min-height:100px;resize:none}
 </section>
 
 <section id="w-complete" class="screen">
- <div class="scroll center" style="padding:55px 25px;text-align:center">
-  <div style="font-size:68px;color:#55e889">✓</div>
-  <h1>Job Completed!</h1>
-  <p class="muted">Bill sent to customer — payment pending.</p>
-  <div class="card" style="width:100%;margin:20px 0"><div class="muted small">Your earnings (this job)</div><div class="money" id="w-lastEarn">Rs. 2,500</div></div>
-  <button class="btn btn-blue" onclick="goW('w-earnings')">View Earnings</button>
- </div>
+  <div class="scroll center worker-complete-content">
+
+    <!-- Success Icon -->
+    <div class="worker-complete-icon">✓</div>
+
+    <!-- Title -->
+    <h1>Job Completed!</h1>
+
+    <!-- Message -->
+    <p class="muted worker-complete-message">
+      Bill sent to customer — payment pending.
+    </p>
+
+    <!-- Earnings Card -->
+    <div class="card worker-earnings-card">
+
+      <div class="muted small">
+        Your earnings (this job)
+      </div>
+
+      <div class="money" id="w-lastEarn">
+        Rs. 2,500
+      </div>
+
+    </div>
+
+    <!-- Earnings Button -->
+    <button
+      class="btn btn-blue worker-earnings-btn"
+      onclick="goW('w-earnings')">
+      View Earnings
+    </button>
+
+  </div>
 </section>
 
 <section id="w-earnings" class="screen">
@@ -843,6 +995,7 @@ textarea.input{min-height:100px;resize:none}
 <div id="w-toast" class="toast"></div></div>
  </div>
 </div>
+
 <script>
 /* ===== FixMate dual-screen shared logic ===== */
 const FM = {
@@ -909,24 +1062,32 @@ function goC(id){
   app.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   target.classList.add('active');
   const sc=target.querySelector('.scroll'); if(sc) sc.scrollTop=0;
-  if(['c-home','c-bookings','c-chat','c-profile'].includes(id)) lastMainC=id;
+
+  /* Chat is excluded so lastMainC always stores the previous main customer page */
+  if(['c-home','c-bookings','c-profile'].includes(id)) lastMainC=id;
+
   app.querySelectorAll('.nav-item[data-nav]').forEach(b=>b.classList.toggle('active', b.dataset.nav===id));
   if(id==='c-notif'){ renderNotifList('c'); document.getElementById('c-nav-dot-bell').classList.remove('show'); }
   if(id==='c-chat'){ document.getElementById('c-nav-dot-chat').classList.remove('show'); }
   if(id==='c-bookings') renderBookingsList();
 }
+
 function goW(id){
   const app=document.getElementById('appW');
   const target=document.getElementById(id); if(!target) return;
   app.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   target.classList.add('active');
   const sc=target.querySelector('.scroll'); if(sc) sc.scrollTop=0;
-  if(['w-home','w-jobs','w-chat','w-profile'].includes(id)) lastMainW=id;
+
+  /* Chat is excluded so lastMainW always stores the previous main worker page */
+  if(['w-home','w-jobs','w-profile'].includes(id)) lastMainW=id;
+
   app.querySelectorAll('.nav-item[data-nav]').forEach(b=>b.classList.toggle('active', b.dataset.nav===id));
   if(id==='w-notif'){ renderNotifList('w'); document.getElementById('w-nav-dot-bell').classList.remove('show'); }
   if(id==='w-chat'){ document.getElementById('w-nav-dot-chat').classList.remove('show'); }
   if(id==='w-jobs') renderWorkerJobsList();
 }
+
 function cLastMain(){ return lastMainC; }
 function wLastMain(){ return lastMainW; }
 
@@ -1434,5 +1595,6 @@ document.addEventListener('click', function(e){
 });
 
 </script>
+
 </body>
 </html>
