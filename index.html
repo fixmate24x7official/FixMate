@@ -1,28 +1,161 @@
 
 <!doctype html>
-<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260925-05-46ec85d","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YACgEZulLoA,0","Arial Narrow":"YAGyDvJ_4Ts,0","Arial Rounded MT Bold":"YAFcfoaHu-s,0","Arial":"YAGyDvJ_4Ts,0","Avenir Next":"YAFcfmNq6UY,0","Baloo 2":"YADK30bC6HQ,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAFcfvtOAUY,1","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHQutsX00Q,0","Hanken Grotesk":"YAFcfhwp99E,0","Helvetica Neue":"YAFcf6CtJfI,0","Helvetica":"YAFcf6CtJfI,0","IBM Plex Mono":"YAFdJkmvhGI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YADK3zbC6RM,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Pacifico":"YADLjORQ1u4,0","Phantom Sans":"YAFdJvgJ5TU,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAGvf3_u0_Q,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Source Serif 4":"YACgEfdj394,0","Space Grotesk":"YADZ-dYEmhg,0","Space Mono":"YADW1-vpsoc,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","UV Display":"YAEdVfSSpYo,0","UV Sans":"YAFdJvgJ5TU,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YAD1aFjegN8,0","ui-sans-serif":"YACkoD1yZN0,0"}}');</script><script src="/_sdk/6542d56fbfe7a3eb.telemetry_sdk.js" integrity="sha512-ECdM0nK7EkwDuOqho2qxgyRQXyBHk9hZqRKMBr+Xsu6zjeHlt+qkO2N2YRiHN7Kg4e1fEHDhjIp4bGJYVypv1g=="></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>FixMate — Your Problem. Our Mate.</title>
-  <style>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>FixMate — Dual Screen Demo (Customer + Worker)</title>
+<style>
 :root{--bg:#030405;--surface:#0b0e12;--surface2:#10151b;--surface3:#151b22;--white:#f8fbff;--muted:#d2d8e0;--line:#26313a;--blue:#2296ff;--cyan:#7be7ff;--green:#38d39f;--yellow:#ffd166;--red:#ff647c;--radius:20px;--font:"DM Sans",Inter,ui-sans-serif,system-ui,sans-serif}
-*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#000;color:var(--white);font-family:var(--font);-webkit-font-smoothing:antialiased}body{display:flex;justify-content:center;overflow:hidden}button,input,textarea,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
-#app{width:100vw;max-width:430px;height:100dvh;position:relative;background:var(--bg);overflow:hidden;box-shadow:0 0 0 1px #17191c,0 30px 80px rgba(0,0,0,.7)}@media(min-width:520px){#app{height:min(900px,100dvh);margin:auto;border-radius:34px}}
-.screen{position:absolute;inset:0;display:none;flex-direction:column;background:radial-gradient(circle at 80% -10%,rgba(34,150,255,.10),transparent 35%),var(--bg);overflow:hidden}.screen.active{display:flex}.scroll{overflow-y:auto;overflow-x:hidden;padding-bottom:108px;min-height:0;scrollbar-width:none}.scroll::-webkit-scrollbar{display:none}.status{height:24px;padding:5px 18px 0;display:flex;justify-content:space-between;font-size:11px;font-weight:700;opacity:.9;flex:none}.status-icons{display:flex;gap:6px;align-items:center}.topbar{min-height:62px;padding:0 17px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex:none}.topbar .title{font-size:18px;font-weight:850}.back,.iconbtn{width:40px;height:40px;border:1px solid var(--line);background:var(--surface2);color:#fff;border-radius:14px;display:grid;place-items:center;font-size:22px}.iconbtn{font-size:17px}.pad{padding:0 18px}.section{padding:18px}.hero{padding:24px 18px 18px}.hero h1{font-size:30px;line-height:1.05;letter-spacing:-1.2px;margin:0 0 8px}.hero p,.muted{color:var(--muted)}.hero p{font-size:14px;line-height:1.5;margin:0}.small{font-size:12px}.center{display:flex;align-items:center;justify-content:center}.row,.between{display:flex;align-items:center;gap:12px}.between{justify-content:space-between}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.card,.card2{background:linear-gradient(145deg,#10171e,#090c10);border:1px solid #222e39;border-radius:var(--radius);padding:15px}.card2{padding:14px}.divider{height:1px;background:var(--line);margin:14px 0}hr{border:0;border-top:1px solid var(--line)}.btn{width:100%;border:0;border-radius:15px;padding:15px 18px;min-height:52px;font-weight:850;font-size:15px;display:flex;align-items:center;justify-content:center;gap:9px;color:#fff}.btn:active{transform:scale(.98)}.btn-blue,.btn-primary{background:linear-gradient(135deg,#63ddff 0%,#249aff 48%,#1765ff 100%);box-shadow:0 10px 28px rgba(28,144,255,.22)}.btn-dark{background:var(--surface2);border:1px solid var(--line)}.btn-green{background:var(--green);color:#031008}.btn-danger{background:#2a1012;color:#ffb0b5;border:1px solid #512126}.btn-small{min-height:42px;padding:10px 13px;font-size:13px;border-radius:11px}.linkbtn{border:0;background:none;color:#69c7ff;font-weight:700;padding:8px}.input{width:100%;background:#0b1015;color:#fff;border:1px solid #26303b;border-radius:13px;padding:14px;outline:none}.input:focus{border-color:#299eff;box-shadow:0 0 0 3px rgba(41,158,255,.10)}textarea.input{min-height:110px;resize:none}.field{margin-bottom:14px}.label{font-size:12px;color:#eef2f7;margin:0 0 7px;font-weight:700}.search{height:52px;display:flex;align-items:center;gap:10px;background:linear-gradient(145deg,#10171e,#090c10);border:1px solid #222e39;border-radius:14px;padding:0 13px}.search input{border:0;background:none;color:#fff;outline:none;padding:14px 0;width:100%}.logo-mark{width:52px;height:52px;border-radius:16px;background:linear-gradient(145deg,#102b4d,#07152b 55%,#020817);display:grid;place-items:center;box-shadow:0 18px 45px rgba(3,28,67,.45),inset 0 1px 0 rgba(148,211,255,.35)}.logo-mark img{width:100%;height:100%;object-fit:cover;border-radius:inherit;mix-blend-mode:screen}.brand{font-size:28px;font-weight:900;letter-spacing:-1.5px}.tagline{font-size:13px;color:var(--muted)}.splash{align-items:center;justify-content:center;text-align:center;background:radial-gradient(circle at 50% 38%,rgba(52,180,255,.18),transparent 35%),#020304}.splash .logo-mark{width:82px;height:82px;border-radius:25px;margin-bottom:17px;animation:float 1.8s ease-in-out infinite}.splash .logo-mark svg{width:48px;height:48px}.splash .brand{font-size:39px}.splash-loader{position:absolute;bottom:42px;width:42px;height:3px;background:#29313b;border-radius:10px;overflow:hidden}.splash-loader:after{content:"";display:block;width:50%;height:100%;background:linear-gradient(90deg,#6de7ff,#198bff);animation:load 1.3s infinite}@keyframes load{from{transform:translateX(-100%)}to{transform:translateX(220%)}}@keyframes float{50%{transform:translateY(-6px)}}.role-card,.choice{width:100%;padding:17px;border:1px solid #222e39;background:linear-gradient(145deg,#10171e,#090c10);border-radius:20px;display:flex;align-items:center;justify-content:space-between;gap:13px;margin-bottom:12px;color:#fff;text-align:left}.role-icon{width:50px;height:50px;border-radius:15px;background:#1b2738;display:grid;place-items:center;font-size:24px;flex:none}.role-card h3{margin:0 0 3px;font-size:15px}.role-card p{margin:0;color:var(--muted);font-size:11px;line-height:1.4}.choice{border-radius:15px;padding:15px}.choice.selected{border-color:#299eff;background:#0d1c31}.radio{width:20px;height:20px;border-radius:50%;border:2px solid #59616c;display:grid;place-items:center;flex:none}.choice.selected .radio{border-color:var(--blue)}.choice.selected .radio:after{content:"";width:9px;height:9px;background:var(--blue);border-radius:50%}.badge{display:inline-flex;align-items:center;gap:5px;border-radius:999px;padding:5px 9px;font-size:11px;font-weight:800}.badge-blue{background:#10284f;color:#b9d8ff}.badge-green{background:#0b2b18;color:#8af5ad}.badge-yellow{background:#30270a;color:#ffe477}.badge-red{background:#321216;color:#ffb0b5}.avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,#334155,#64748b);display:grid;place-items:center;font-weight:900;color:#fff;flex:none}.avatar.lg{width:72px;height:72px;font-size:22px}.avatar.sm{width:34px;height:34px;font-size:12px}.profile-head{display:flex;gap:14px;align-items:center}.profile-name{font-size:21px;font-weight:900}.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.stat{background:#0a0e13;border:1px solid #1e2730;padding:12px 8px;border-radius:14px;text-align:center}.stat b{display:block;font-size:19px;margin-bottom:3px}.stat span{font-size:10px;color:var(--muted)}.money{font-size:28px;font-weight:950;letter-spacing:-1px}.section-title{font-size:17px;font-weight:850;margin:0 0 12px}.service-card{padding:13px 8px;text-align:center;color:#fff;background:linear-gradient(145deg,#10171e,#090c10);border:1px solid #222e39;border-radius:15px;min-height:91px}.service-card.active{border-color:#299eff;background:#0c1d37;box-shadow:inset 0 0 0 1px var(--blue)}.service-icon{width:38px;height:38px;margin:0 auto 8px;border-radius:12px;background:#19212b;display:grid;place-items:center;font-size:20px}.service-name{font-size:11px;font-weight:800}.bottom-nav{position:absolute;left:10px;right:10px;bottom:9px;height:70px;padding:7px;border:1px solid #26313a;background:rgba(8,12,16,.96);backdrop-filter:blur(20px);border-radius:22px;display:grid;grid-template-columns:repeat(4,1fr);z-index:20}.nav-item{border:0;background:none;color:#b8c1cc;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:10px;font-weight:700;border-radius:14px}.nav-item.active{background:linear-gradient(145deg,#123858,#0a1825);color:#fff}.nav-icon{font-size:20px;line-height:1}.job-card{background:linear-gradient(145deg,#10171e,#090c10);border:1px solid #222e39;border-radius:17px;overflow:hidden}.job-photo{height:132px;background:linear-gradient(145deg,#17324a,#0b151f);display:grid;place-items:center;font-size:48px}.job-body{padding:14px}.job-title{font-size:15px;font-weight:850;line-height:1.3}.job-meta{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.45}.actions{display:flex;gap:9px;margin-top:13px}.actions>*{flex:1}.price{font-weight:900;font-size:17px}.tabs,.quick{display:flex;gap:7px;overflow-x:auto;padding:0 18px 12px;scrollbar-width:none}.tab,.quick button{border:1px solid var(--line);background:var(--surface2);color:#dce3eb;padding:9px 13px;border-radius:999px;white-space:nowrap;font-size:11px;font-weight:800}.tab.active{background:#fff;color:#050607;border-color:#fff}.map{height:280px;position:relative;overflow:hidden;border-radius:18px;border:1px solid var(--line);background:linear-gradient(35deg,transparent 45%,#20252a 46%,#20252a 47%,transparent 48%),linear-gradient(145deg,transparent 44%,#20252a 45%,#20252a 46%,transparent 47%),#111418}.map:before,.map:after{content:"";position:absolute;inset:-30%;background:repeating-linear-gradient(35deg,transparent 0 32px,rgba(255,255,255,.05) 33px 35px,transparent 36px 65px);transform:rotate(9deg)}.map:after{transform:rotate(-20deg);opacity:.45}.route{position:absolute;left:20%;top:65%;width:55%;height:2px;background:var(--blue);transform:rotate(-24deg);z-index:2}.pin{position:absolute;z-index:4;width:36px;height:36px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--blue);display:grid;place-items:center}.pin span{transform:rotate(45deg)}.pin.customer{left:14%;top:68%}.pin.worker{right:16%;top:25%}.map-label{position:absolute;z-index:5;bottom:12px;left:12px;right:12px;background:rgba(0,0,0,.75);border:1px solid #30343a;border-radius:13px;padding:10px}.chat{display:flex;flex-direction:column;gap:10px;padding:15px 18px}.bubble{max-width:78%;padding:11px 13px;border-radius:16px;font-size:13px;line-height:1.35}.bubble.me{align-self:flex-end;background:var(--blue);border-bottom-right-radius:4px}.bubble.them{align-self:flex-start;background:var(--surface2);border:1px solid var(--line);border-bottom-left-radius:4px}.chat-input{position:absolute;bottom:76px;left:0;right:0;padding:10px;background:rgba(5,6,7,.98);border-top:1px solid var(--line);display:flex;gap:8px}.chat-input input{flex:1;border:1px solid var(--line);background:var(--surface2);color:#fff;border-radius:999px;padding:12px 14px}.send{width:44px;height:44px;border:0;border-radius:50%;background:var(--blue);color:#fff}.notice{padding:12px 13px;border-radius:13px;background:#0c1b30;border:1px solid #1e3b64;color:#dcecff;font-size:12px;line-height:1.4}.toast{position:absolute;left:18px;right:18px;bottom:88px;background:#fff;color:#050607;border-radius:13px;padding:13px 15px;z-index:50;box-shadow:0 15px 40px #000;display:none;font-size:13px;font-weight:800}.toast.show{display:block}.hidden{display:none!important}@media(max-width:350px){.section,.hero,.pad{padding-left:13px;padding-right:13px}.grid3{gap:7px}}
-
-/* FixMate v2 additions — preserves original UI and extends it */
-.theme-toggle{width:64px;height:34px;border:1px solid var(--line);background:var(--surface2);border-radius:999px;padding:3px;display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:13px;position:relative}
-.theme-toggle .knob{width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#63ddff,#1765ff);display:grid;place-items:center;transition:.25s;box-shadow:0 3px 10px rgba(0,0,0,.25)}
-.theme-toggle.light .knob{transform:translateX(30px);background:linear-gradient(135deg,#ffd166,#ff9f43)}
-.theme-toggle span{width:25px;text-align:center;line-height:1}
-.dashboard-tools{display:flex;align-items:center;gap:7px}
+*{box-sizing:border-box}html,body{margin:0;width:100%;min-height:100%;background:#05070a;color:var(--white);font-family:var(--font);-webkit-font-smoothing:antialiased}
+button,input,textarea,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.stage{display:flex;flex-wrap:wrap;gap:22px;align-items:flex-start;justify-content:center;padding:26px 16px 60px;min-height:100vh}
+.stage-label{width:100%;text-align:center;color:#8b97a5;font-size:13px;font-weight:800;letter-spacing:.5px;margin-bottom:-8px;text-transform:uppercase}
+.phone-wrap{display:flex;flex-direction:column;align-items:center;gap:10px}
+.phone-tag{font-size:12px;font-weight:900;letter-spacing:.4px;color:#9fb0c2;background:#11161c;border:1px solid #232b34;padding:6px 14px;border-radius:999px}
+.phone-tag b{color:#fff}
+.phone{width:390px;max-width:92vw;height:844px;max-height:88vh;position:relative;background:var(--bg);overflow:hidden;border-radius:38px;box-shadow:0 0 0 8px #0d1013,0 0 0 9px #262c33,0 40px 90px rgba(0,0,0,.65)}
+.screen{position:absolute;inset:0;display:none;flex-direction:column;background:radial-gradient(circle at 80% -10%,rgba(34,150,255,.10),transparent 35%),var(--bg);overflow:hidden}
+.screen.active{display:flex}
+.scroll{overflow-y:auto;overflow-x:hidden;padding-bottom:112px;min-height:0;scrollbar-width:none;flex:1}
+.scroll::-webkit-scrollbar{display:none}
+.status{height:26px;padding:6px 20px 0;display:flex;justify-content:space-between;font-size:11px;font-weight:700;opacity:.9;flex:none}
+.status-icons{display:flex;gap:6px;align-items:center}
+.topbar{min-height:60px;padding:0 17px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex:none}
+.topbar .title{font-size:17px;font-weight:850}
+.back,.iconbtn{width:38px;height:38px;border:1px solid var(--line);background:var(--surface2);color:#fff;border-radius:14px;display:grid;place-items:center;font-size:20px;position:relative}
+.iconbtn{font-size:16px}
+.pad{padding:0 18px}
+.section{padding:16px 18px}
+.hero{padding:22px 18px 14px}
+.hero h1{font-size:27px;line-height:1.08;letter-spacing:-1px;margin:0 0 7px}
+.hero p,.muted{color:var(--muted)}
+.hero p{font-size:13px;line-height:1.5;margin:0}
+.small{font-size:12px}
+.center{display:flex;align-items:center;justify-content:center}
+.row,.between{display:flex;align-items:center;gap:12px}
+.between{justify-content:space-between}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.card,.card2{background:linear-gradient(145deg,#10171e,#090c10);border:1px solid #222e39;border-radius:18px;padding:14px}
+.card2{padding:13px}
+.divider{height:1px;background:var(--line);margin:13px 0}
+hr{border:0;border-top:1px solid var(--line)}
+.btn{width:100%;border:0;border-radius:15px;padding:14px 18px;min-height:50px;font-weight:850;font-size:14px;display:flex;align-items:center;justify-content:center;gap:9px;color:#fff}
+.btn:active{transform:scale(.98)}
+.btn-blue,.btn-primary{background:linear-gradient(135deg,#63ddff 0%,#249aff 48%,#1765ff 100%);box-shadow:0 10px 26px rgba(28,144,255,.22)}
+.btn-dark{background:var(--surface2);border:1px solid var(--line)}
+.btn-green{background:var(--green);color:#031008}
+.btn-danger{background:#2a1012;color:#ffb0b5;border:1px solid #512126}
+.btn-small{min-height:40px;padding:9px 12px;font-size:12.5px;border-radius:11px}
+.btn[disabled]{opacity:.4;pointer-events:none}
+.linkbtn{border:0;background:none;color:#69c7ff;font-weight:700;padding:8px}
+.input{width:100%;background:#0b1015;color:#fff;border:1px solid #26303b;border-radius:13px;padding:13px;outline:none}
+.input:focus{border-color:#299eff;box-shadow:0 0 0 3px rgba(41,158,255,.10)}
+textarea.input{min-height:100px;resize:none}
+.field{margin-bottom:13px}
+.label{font-size:12px;color:#eef2f7;margin:0 0 6px;font-weight:700}
+.search{height:50px;display:flex;align-items:center;gap:10px;background:linear-gradient(145deg,#10171e,#090c10);border:1px solid #222e39;border-radius:14px;padding:0 13px}
+.search input{border:0;background:none;color:#fff;outline:none;padding:14px 0;width:100%}
+.logo-mark{width:52px;height:52px;border-radius:16px;background:linear-gradient(145deg,#102b4d,#07152b 55%,#020817);display:grid;place-items:center;box-shadow:0 18px 45px rgba(3,28,67,.45),inset 0 1px 0 rgba(148,211,255,.35);font-size:24px}
+.brand{font-size:26px;font-weight:900;letter-spacing:-1.3px}
+.tagline{font-size:12.5px;color:var(--muted)}
+.splash{align-items:center;justify-content:center;text-align:center;background:radial-gradient(circle at 50% 38%,rgba(52,180,255,.18),transparent 35%),#020304}
+.splash .logo-mark{width:80px;height:80px;border-radius:25px;margin-bottom:16px;animation:float 1.8s ease-in-out infinite;font-size:36px}
+.splash .brand{font-size:36px}
+.splash-loader{position:absolute;bottom:40px;width:42px;height:3px;background:#29313b;border-radius:10px;overflow:hidden;left:50%;transform:translateX(-50%)}
+.splash-loader:after{content:"";display:block;width:50%;height:100%;background:linear-gradient(90deg,#6de7ff,#198bff);animation:load 1.3s infinite}
+@keyframes load{from{transform:translateX(-100%)}to{transform:translateX(220%)}}
+@keyframes float{50%{transform:translateY(-6px)}}
+.role-card,.choice{width:100%;padding:16px;border:1px solid #222e39;background:linear-gradient(145deg,#10171e,#090c10);border-radius:18px;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:11px;color:#fff;text-align:left}
+.role-icon{width:48px;height:48px;border-radius:15px;background:#1b2738;display:grid;place-items:center;font-size:23px;flex:none}
+.choice{border-radius:15px;padding:14px}
+.choice.selected{border-color:#299eff;background:#0d1c31}
+.radio{width:19px;height:19px;border-radius:50%;border:2px solid #59616c;display:grid;place-items:center;flex:none}
+.choice.selected .radio{border-color:var(--blue)}
+.choice.selected .radio:after{content:"";width:9px;height:9px;background:var(--blue);border-radius:50%}
+.badge{display:inline-flex;align-items:center;gap:5px;border-radius:999px;padding:5px 9px;font-size:10.5px;font-weight:800}
+.badge-blue{background:#10284f;color:#b9d8ff}.badge-green{background:#0b2b18;color:#8af5ad}.badge-yellow{background:#30270a;color:#ffe477}.badge-red{background:#321216;color:#ffb0b5}
+.avatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,#334155,#64748b);display:grid;place-items:center;font-weight:900;color:#fff;flex:none}
+.avatar.lg{width:70px;height:70px;font-size:21px}.avatar.sm{width:34px;height:34px;font-size:12px}
+.profile-head{display:flex;gap:14px;align-items:center}
+.profile-name{font-size:20px;font-weight:900}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat{background:#0a0e13;border:1px solid #1e2730;padding:11px 6px;border-radius:14px;text-align:center}
+.stat b{display:block;font-size:18px;margin-bottom:2px}.stat span{font-size:9.5px;color:var(--muted)}
+.money{font-size:26px;font-weight:950;letter-spacing:-1px}
+.section-title{font-size:16px;font-weight:850;margin:0 0 11px}
+.service-card{padding:12px 6px;text-align:center;color:#fff;background:linear-gradient(145deg,#10171e,#090c10);border:1px solid #222e39;border-radius:15px;min-height:86px}
+.service-card.active{border-color:#299eff;background:#0c1d37;box-shadow:inset 0 0 0 1px var(--blue)}
+.service-icon{width:36px;height:36px;margin:0 auto 7px;border-radius:12px;background:#19212b;display:grid;place-items:center;font-size:18px}
+.service-name{font-size:10.5px;font-weight:800}
+.bottom-nav{position:absolute;left:10px;right:10px;bottom:9px;height:68px;padding:7px;border:1px solid #26313a;background:rgba(8,12,16,.96);backdrop-filter:blur(20px);border-radius:22px;display:grid;grid-template-columns:repeat(4,1fr);z-index:20}
+.nav-item{border:0;background:none;color:#b8c1cc;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:9.5px;font-weight:700;border-radius:14px;position:relative}
+.nav-item.active{background:linear-gradient(145deg,#123858,#0a1825);color:#fff}
+.nav-icon{font-size:19px;line-height:1}
+.nav-dot{position:absolute;top:6px;right:22%;width:8px;height:8px;border-radius:50%;background:var(--red);border:2px solid #05070a;display:none}
+.nav-dot.show{display:block}
+.job-card{background:linear-gradient(145deg,#10171e,#090c10);border:1px solid #222e39;border-radius:17px;overflow:hidden}
+.job-photo{height:120px;background:linear-gradient(145deg,#17324a,#0b151f);display:grid;place-items:center;font-size:44px}
+.job-body{padding:13px}
+.job-title{font-size:14.5px;font-weight:850;line-height:1.3}
+.job-meta{font-size:11.5px;color:var(--muted);margin-top:5px;line-height:1.45}
+.actions{display:flex;gap:9px;margin-top:12px}.actions>*{flex:1}
+.price{font-weight:900;font-size:16px}
+.tabs,.quick{display:flex;gap:7px;overflow-x:auto;padding:0 18px 12px;scrollbar-width:none}
+.tab,.quick button{border:1px solid var(--line);background:var(--surface2);color:#dce3eb;padding:8px 12px;border-radius:999px;white-space:nowrap;font-size:11px;font-weight:800}
+.tab.active{background:#fff;color:#050607;border-color:#fff}
+.chat{display:flex;flex-direction:column;gap:9px;padding:14px 18px}
+.bubble{max-width:78%;padding:10px 12px;border-radius:16px;font-size:13px;line-height:1.35}
+.bubble.me{align-self:flex-end;background:var(--blue);border-bottom-right-radius:4px}
+.bubble.them{align-self:flex-start;background:var(--surface2);border:1px solid var(--line);border-bottom-left-radius:4px}
+.chat-input{position:absolute;bottom:76px;left:0;right:0;padding:10px;background:rgba(5,6,7,.98);border-top:1px solid var(--line);display:flex;gap:8px}
+.chat-input input{flex:1;border:1px solid var(--line);background:var(--surface2);color:#fff;border-radius:999px;padding:11px 14px}
+.send{width:42px;height:42px;border:0;border-radius:50%;background:var(--blue);color:#fff;flex:none}
+.notice{padding:11px 12px;border-radius:13px;background:#0c1b30;border:1px solid #1e3b64;color:#dcecff;font-size:12px;line-height:1.4}
+.toast{position:absolute;left:16px;right:16px;bottom:88px;background:#fff;color:#050607;border-radius:13px;padding:12px 14px;z-index:60;box-shadow:0 15px 40px #000;display:none;font-size:12.5px;font-weight:800}
+.toast.show{display:block;animation:toastin .25s ease}
+@keyframes toastin{from{transform:translateY(10px);opacity:0}to{transform:translateY(0);opacity:1}}
+.hidden{display:none!important}
+/* OTP */
+.otp-row{display:flex;gap:9px;margin:22px 0;justify-content:space-between}
+.otp-box{width:44px;height:50px;text-align:center;font-size:19px;font-weight:800;padding:0;border-radius:11px}
+/* multiselect */
+.multiselect{position:relative}
+.multiselect-btn{width:100%;text-align:left;display:flex;justify-content:space-between;align-items:center}
+.multiselect-panel{display:none;margin-top:8px;background:#0b1015;border:1px solid #26303b;border-radius:13px;padding:8px;max-height:210px;overflow:auto}
+.multiselect-panel.open{display:block}
+.ms-opt{display:flex;align-items:center;gap:9px;padding:9px 7px;border-radius:9px;font-size:13px}
+.ms-opt:hover{background:#141c24}
+.ms-opt input{width:16px;height:16px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:#10284f;color:#b9d8ff;border-radius:999px;padding:5px 10px;font-size:11px;font-weight:700;margin:4px 6px 0 0}
+/* tracking map */
+.leafmap{height:100%;width:100%;background:#0d1218}
+.leaflet-container{background:#0d1218!important}
+.map-label{position:absolute;z-index:500;bottom:12px;left:12px;right:12px;background:rgba(6,8,10,.88);border:1px solid #2a323c;border-radius:15px;padding:12px;backdrop-filter:blur(6px)}
+.driver-pin{width:34px;height:34px;border-radius:50%;background:var(--blue);border:3px solid #fff;box-shadow:0 4px 14px rgba(34,150,255,.6);display:grid;place-items:center;font-size:16px;animation:pulse 1.6s infinite}
+.dest-pin{width:26px;height:26px;border-radius:50% 50% 50% 0;background:var(--red);transform:rotate(-45deg);border:2px solid #fff}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(34,150,255,.55)}70%{box-shadow:0 0 0 14px rgba(34,150,255,0)}100%{box-shadow:0 0 0 0 rgba(34,150,255,0)}}
+.eta-track{height:6px;border-radius:4px;background:#1a2229;overflow:hidden;margin-top:9px}
+.eta-fill{height:100%;background:linear-gradient(90deg,#63ddff,#1765ff);width:15%;transition:width 1s linear}
+/* billing */
+.bill-row{display:flex;gap:8px;margin-bottom:8px}
+.bill-row input{flex:1}
+.bill-row input.price{flex:0 0 92px}
+.invoice-paper{background:#fff;color:#111;border-radius:20px;padding:20px;border:1px solid #dbe3eb;box-shadow:0 15px 35px rgba(0,0,0,.12)}
+.invoice-paper h2,.invoice-paper h3,.invoice-paper b{color:#111}
+.invoice-line{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px dashed #ccd4dc;font-size:13px}
+.status-pill{display:flex;align-items:center;gap:7px;padding:9px 12px;border-radius:12px;background:#0d2018;border:1px solid #164d34;color:#8af5ad;font-size:12px;font-weight:800}
+.theme-toggle{width:60px;height:32px;border:1px solid var(--line);background:var(--surface2);border-radius:999px;padding:3px;display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:12px;position:relative;border-width:1px}
+.theme-toggle .knob{width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,#63ddff,#1765ff);display:grid;place-items:center;transition:.25s;box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.theme-toggle.light .knob{transform:translateX(28px);background:linear-gradient(135deg,#ffd166,#ff9f43)}
+/* light theme */
 .light-theme{--bg:#f4f7fb;--surface:#ffffff;--surface2:#eef3f8;--surface3:#e5ebf2;--white:#10151b;--muted:#526170;--line:#d5dee8;--blue:#1677e8;--cyan:#078fca}
 .light-theme{background:#f4f7fb!important;color:#10151b!important}
 .light-theme .screen{background:radial-gradient(circle at 80% -10%,rgba(34,150,255,.08),transparent 35%),var(--bg)}
 .light-theme .card,.light-theme .card2,.light-theme .service-card,.light-theme .job-card,.light-theme .role-card,.light-theme .choice,.light-theme .search{background:linear-gradient(145deg,#fff,#f4f7fb);border-color:#d5dee8;color:#10151b}
-.light-theme .input,.light-theme .chat-input input{background:#fff;color:#10151b;border-color:#ccd7e2}
+.light-theme .input,.light-theme .chat-input input,.light-theme .multiselect-panel{background:#fff;color:#10151b;border-color:#ccd7e2}
 .light-theme .topbar .title,.light-theme h1,.light-theme h2,.light-theme h3,.light-theme b,.light-theme .job-title,.light-theme .profile-name{color:#10151b}
-.light-theme .canva-text{color:#10151b!important}
 .light-theme .tagline,.light-theme .muted{color:#526170!important}
 .light-theme .bottom-nav{background:rgba(255,255,255,.96);border-color:#d5dee8}
 .light-theme .nav-item{color:#526170}.light-theme .nav-item.active{color:#10151b;background:#e4f2ff}
@@ -30,1170 +163,1276 @@
 .light-theme .notice{background:#eaf5ff;color:#173b5d;border-color:#b8d9f5}
 .light-theme .stat{background:#f7f9fb;border-color:#dce4ec}
 .light-theme .bubble.them{background:#eef3f8;border-color:#d5dee8;color:#10151b}
-.invoice-paper{background:#fff;color:#111;border-radius:20px;padding:20px;border:1px solid #dbe3eb;box-shadow:0 15px 35px rgba(0,0,0,.12)}
-.invoice-paper h2,.invoice-paper h3,.invoice-paper b{color:#111}
-.invoice-line{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed #ccd4dc;font-size:13px}
-.service-wide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
-.service-wide-grid .service-card{min-height:82px}
-.status-pill{display:flex;align-items:center;gap:7px;padding:9px 12px;border-radius:12px;background:#0d2018;border:1px solid #164d34;color:#8af5ad;font-size:12px;font-weight:800}
-.light-theme .status-pill{background:#e9f9f0;color:#167342;border-color:#bde6cd}
+.light-theme .toast{background:#10151b;color:#fff}
+.light-theme .ms-opt:hover{background:#eef3f8}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:900px){.stage{flex-direction:column;align-items:center}}
+@media(max-width:430px){.phone{height:92vh}}
 </style>
-  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
-  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
-  <script src="/_sdk/6c2ecc939521f244.data_sdk.js" type="text/javascript" integrity="sha512-gRx8s+XsZDN6mSIQu2sivLZysbV0WHhb5kXNUWlgVb5lCMU1foJYukyMEDPv8Tnoocb8iwqB4XdRrWc7oEGzIQ=="></script>
-  <script src="/_sdk/ef0304cb8c7ed696.editing_sdk.js" type="text/javascript" integrity="sha512-kmL9L5Yuj57MQaequKbMA3aGpT/5lBUp10iGA3e3qnmMLs2ZZQ0poCcIfdd5rTgrhEvNPe4HK0ohePW7ZpgAFg=="></script>
-  <script src="/_sdk/ddcab3e45959c817.resizing_sdk.js" type="text/javascript" integrity="sha512-VAviUKfZVzugWBSeULYjSljTX+nb84wc6Zzbx5GQaQgh6X2ISSjXi8eIiCDGdwDh10esJMY0+QFQgUy9NcrTlQ=="></script>
- </head>
- <body data-template-id="__page-root" style="background: rgb(0, 0, 0);">
-  <div id="app">
-   <section id="splash" class="screen splash active">
-    <div class="logo-mark" aria-label="FixMate repair handshake emblem">
-     <img data-template-id="splash-logo" class="canva-image" loading="lazy" src="canva://MAHWXrNTBa4/1" alt="Blue metallic circular repair emblem showing a worker and customer shaking hands">
-    </div>
-    <div data-template-id="splash-brand" class="brand canva-text" style="color: rgb(248, 251, 255); font-weight: 900; font-style: normal; font-size: 39px;">FixMate</div>
-    <div data-template-id="splash-tagline" class="tagline canva-text" style="color: rgb(210, 216, 224); font-weight: 400; font-style: normal; font-size: 14px;">Your Problem. Our Mate.</div>
-    <div class="splash-loader"></div>
-   </section>
-   <section id="welcome" class="screen">
-    <div class="status">
-     <span>9:41</span>
-     <div class="status-icons">
-      <span>▮▮▮</span><span>⌁</span><span>▰</span>
-     </div>
-    </div>
-    <div class="scroll">
-     <div class="hero" style="text-align:center;padding-top:50px">
-      <div class="logo-mark" style="margin:0 auto 17px"><img data-template-id="welcome-logo" class="canva-image" loading="lazy" src="canva://MAHWXrNTBa4/1" alt="Blue metallic circular repair emblem showing a worker and customer shaking hands">
-      </div>
-      <div data-template-id="welcome-brand" class="brand canva-text" style="color: rgb(248, 251, 255); font-weight: 900; font-style: normal; font-size: 28px;">FixMate</div>
-      <div data-template-id="welcome-tagline" class="tagline canva-text" style="color: rgb(210, 216, 224); font-weight: 400; font-style: normal; font-size: 13px;">Your Problem. Our Mate.</div>
-      <h1 data-template-id="welcome-title" class="canva-text" style="margin-top: 34px; color: rgb(248, 251, 255); font-weight: 900; font-style: normal; font-size: 30px;">How can FixMate help you?</h1>
-      <p data-template-id="welcome-copy" class="canva-text" style="color: rgb(210, 216, 224); font-weight: 400; font-style: normal; font-size: 14px;">Book trusted local workers or find your next service job — all from one professional app.</p>
-     </div>
-     <div class="pad" style="margin-top:25px"><button class="role-card" onclick="go('customerReg')"><span class="role-icon">◯</span><span style="text-align:left;flex:1"><h3 data-template-id="customer-role-title" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 15px;">I’m a Customer</h3><p data-template-id="customer-role-copy" class="canva-text" style="color: rgb(210, 216, 224); font-weight: 400; font-style: normal; font-size: 11px;">Hire a trusted worker for plumbing, electrical, carpentry and more.</p></span><b>›</b></button> <button class="role-card" onclick="go('workerReg')"><span class="role-icon">🔧</span><span style="text-align:left;flex:1"><h3 data-template-id="worker-role-title" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 15px;">I’m a Worker</h3><p data-template-id="worker-role-copy" class="canva-text" style="color: rgb(210, 216, 224); font-weight: 400; font-style: normal; font-size: 11px;">Get local jobs, send quotations, manage work and earn money.</p></span><b>›</b></button>
-      <div class="card">
-       <div class="between">
-        <span data-template-id="existing-account" class="muted small canva-text" style="color: rgb(210, 216, 224); font-weight: 400; font-style: normal; font-size: 12px;">Already have a FixMate account?</span><button data-template-id="login-button" class="linkbtn canva-button" onclick="toast('Demo login: choose Customer or Worker to continue')" style="color: rgb(105, 199, 255); font-weight: 700; font-style: normal; font-size: 14px;">Log in</button>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section id="workerReg" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮ ⌁ ▰</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('welcome')">‹</button><span data-template-id="worker-registration-title" class="title canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 18px;">Worker Registration</span><span></span>
-    </div>
-    <form class="scroll pad" onsubmit="event.preventDefault();go('otpWorker')">
-     <div class="card">
-      <b data-template-id="worker-registration-card-title" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 14px;">Become a FixMate Worker</b>
-      <div data-template-id="worker-registration-card-copy" class="muted small canva-text" style="color: rgb(210, 216, 224); font-weight: 400; font-style: normal; font-size: 12px;">Create your profile and start receiving nearby work.</div>
-     </div>
-     <div class="field">
-      <div data-template-id="worker-name-label" class="label canva-text" style="color: rgb(238, 242, 247); font-weight: 700; font-style: normal; font-size: 12px;">Full Name</div><input class="input" value="Ramesh Perera">
-     </div>
-     <div class="field">
-      <div data-template-id="worker-phone-label" class="label canva-text" style="color: rgb(238, 242, 247); font-weight: 700; font-style: normal; font-size: 12px;">Mobile Number</div><input class="input" value="+94 77 123 4567">
-     </div>
-     <div class="field">
-      <div data-template-id="worker-city-label" class="label canva-text" style="color: rgb(238, 242, 247); font-weight: 700; font-style: normal; font-size: 12px;">City / Area</div><select class="input"><option>Colombo 05</option><option>Negombo</option><option>Kandy</option><option>Galle</option></select>
-     </div>
-     <div class="field">
-      <div data-template-id="worker-service-label" class="label canva-text" style="color: rgb(238, 242, 247); font-weight: 700; font-style: normal; font-size: 12px;">Primary Service</div><select class="input"><option>Plumbing</option><option>Electrical</option><option>Carpentry</option><option>Cleaning</option><option>Painting</option><option>Gardening</option><option>AC & Refrigeration</option><option>Appliance Repair</option><option>Welding & Metal Work</option><option>Motorcycle & Auto Repair</option><option>Pest Control</option><option>Moving & Delivery</option><option>IT & Computer Support</option><option>Beauty & Personal Care</option><option>Photography & Events</option><option>Home Security</option></select>
-     </div><button data-template-id="worker-registration-continue" class="btn btn-blue canva-button" style="background: linear-gradient(135deg, rgb(99, 221, 255), rgb(36, 154, 255), rgb(23, 101, 255)); color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 14px;">Continue &amp; Verify Mobile</button>
-    </form>
-   </section>
-   <section id="customerReg" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮ ⌁ ▰</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('welcome')">‹</button><span data-template-id="customer-registration-title" class="title canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 18px;">Customer Registration</span><span></span>
-    </div>
-    <form class="scroll pad" onsubmit="event.preventDefault();go('otpCustomer')">
-     <div class="card">
-      <b data-template-id="customer-registration-card-title" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 14px;">Find help when you need it</b>
-      <div data-template-id="customer-registration-card-copy" class="muted small canva-text" style="color: rgb(210, 216, 224); font-weight: 400; font-style: normal; font-size: 12px;">Create your profile to hire trusted workers nearby.</div>
-     </div>
-     <div class="field">
-      <div data-template-id="customer-name-label" class="label canva-text" style="color: rgb(238, 242, 247); font-weight: 700; font-style: normal; font-size: 12px;">Full Name</div><input class="input" value="Ahamed">
-     </div>
-     <div class="field">
-      <div data-template-id="customer-phone-label" class="label canva-text" style="color: rgb(238, 242, 247); font-weight: 700; font-style: normal; font-size: 12px;">Mobile Number</div><input class="input" value="+94 77 987 6543">
-     </div>
-     <div class="field">
-      <div data-template-id="customer-address-label" class="label canva-text" style="color: rgb(238, 242, 247); font-weight: 700; font-style: normal; font-size: 12px;">Home Address</div><input class="input" value="No. 25, Main Street">
-     </div><button data-template-id="customer-registration-continue" class="btn btn-blue canva-button" style="background: linear-gradient(135deg, rgb(99, 221, 255), rgb(36, 154, 255), rgb(23, 101, 255)); color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 14px;">Continue &amp; Verify Mobile</button>
-    </form>
-   </section>
-   <section id="otpWorker" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('workerReg')">‹</button><span data-template-id="otp-title" class="title canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 18px;">Verify Your Number</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <h1 data-template-id="otp-heading" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 28px;">Enter your code</h1>
-     <p data-template-id="otp-copy" class="muted canva-text" style="color: rgb(210, 216, 224); font-weight: 400; font-style: normal; font-size: 14px;">We sent a 6-digit code to your Sri Lankan mobile number.</p>
-     <div class="grid3" style="margin:24px 0">
-      <input class="input" maxlength="1" value="1"><input class="input" maxlength="1" value="2"><input class="input" maxlength="1" value="3"><input class="input" maxlength="1" value="4"><input class="input" maxlength="1" value="5"><input class="input" maxlength="1" value="6">
-     </div>
-     <div data-template-id="otp-demo-note" class="notice canva-text" style="background: rgb(12, 27, 48); color: rgb(220, 236, 255); font-weight: 400; font-style: normal; font-size: 12px;">Prototype OTP: 123456</div><button data-template-id="otp-verify-button" class="btn btn-blue canva-button" style="margin-top: 18px; background: linear-gradient(135deg, rgb(99, 221, 255), rgb(36, 154, 255), rgb(23, 101, 255)); color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 14px;" onclick="go('languageWorker')">Verify</button>
-    </div>
-   </section>
-   <section id="otpCustomer" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('customerReg')">‹</button><span class="title">Verify Your Number</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <h1>Verify your number</h1>
-     <p class="muted">Enter the 6-digit code sent to your mobile.</p>
-     <div class="grid3" style="margin:24px 0">
-      <input class="input" maxlength="1" value="1"><input class="input" maxlength="1" value="2"><input class="input" maxlength="1" value="3"><input class="input" maxlength="1" value="4"><input class="input" maxlength="1" value="5"><input class="input" maxlength="1" value="6">
-     </div>
-     <div class="notice">
-      Prototype OTP: <b>123456</b>
-     </div><button class="btn btn-blue" style="margin-top:18px" onclick="go('languageCustomer')">Verify</button>
-    </div>
-   </section>
-   <section id="languageWorker" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('otpWorker')">‹</button><span class="title">Choose Your Language</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <p class="muted">Select your preferred language.</p>
-     <div style="margin-top:22px">
-      <button class="choice" onclick="selectChoice(this)">🇱🇰 සිංහල <span class="radio"></span></button><button class="choice" onclick="selectChoice(this)">🇱🇰 தமிழ் <span class="radio"></span></button><button class="choice selected" onclick="selectChoice(this)">🇬🇧 English <span class="radio"></span></button>
-     </div><button class="btn btn-blue" onclick="go('workerHome')">Continue</button>
-    </div>
-   </section>
-   <section id="languageCustomer" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('otpCustomer')">‹</button><span class="title">Choose Your Language</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <p class="muted">Select your preferred language.</p>
-     <div style="margin-top:22px">
-      <button class="choice" onclick="selectChoice(this)">🇱🇰 සිංහල <span class="radio"></span></button><button class="choice" onclick="selectChoice(this)">🇱🇰 தமிழ் <span class="radio"></span></button><button class="choice selected" onclick="selectChoice(this)">🇬🇧 English <span class="radio"></span></button>
-     </div><button class="btn btn-blue" onclick="go('customerHome')">Continue</button>
-    </div>
-   </section>
-   <section id="workerHome" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮ ⌁ ▰</span>
-    </div>
-    <div class="topbar">
-     <div class="row">
-      <div class="avatar sm">
-       RP
-      </div>
-      <div>
-       <b>Hi, Ramesh</b>
-       <div class="muted small">
-        Available for new work
-       </div>
-      </div>
-     </div><button class="iconbtn" onclick="go('notifications')">🔔</button>
-    </div>
-    <div class="scroll">
-     <div class="pad">
-      <div class="search">
-       ⌕ <input placeholder="Search for work: plumbing, electrical…" oninput="filterWorkerJobs(this.value)">
-      </div>
-     </div>
-     <div class="section">
-      <div class="card">
-       <div class="between">
-        <b>Today’s Work</b><button class="linkbtn" onclick="go('availability')">Availability</button>
-       </div>
-       <div class="stat-grid" style="margin-top:12px">
-        <div class="stat">
-         <b>3</b><span>New Work</span>
-        </div>
-        <div class="stat">
-         <b>2</b><span>Pending</span>
-        </div>
-        <div class="stat">
-         <b>1</b><span>Today</span>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="section">
-      <h3 class="section-title">New Work Near You</h3>
-      <div class="job-card worker-search-item" data-work="plumbing sink leak pipe repair">
-       <div class="job-photo">
-        🔧
-       </div>
-       <div class="job-body">
-        <div class="between">
-         <div class="job-title">
-          Water leaking under kitchen sink
-         </div><span class="badge badge-red">NEW</span>
-        </div>
-        <div class="job-meta">
-         Plumbing · Colombo 05 · 3 km away
-        </div>
-        <div class="between" style="margin-top:9px">
-         <span class="price">Rs. 2,000–3,500</span><span class="muted small">Today · 3 PM</span>
-        </div>
-        <div class="actions">
-         <button class="btn btn-dark btn-small" onclick="go('workerJob')">Details</button><button class="btn btn-blue btn-small" onclick="acceptJob()">Accept</button>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <nav class="bottom-nav">
-     <button class="nav-item active" onclick="go('workerHome')"><span class="nav-icon">⌂</span>Home</button><button class="nav-item" onclick="go('workerJobs')"><span class="nav-icon">▣</span>Jobs</button><button class="nav-item" onclick="go('chat')"><span class="nav-icon">◌</span>Messages</button><button class="nav-item" onclick="go('workerProfile')"><span class="nav-icon">●</span>Profile</button>
-    </nav>
-   </section>
-   <section id="workerJob" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('workerHome')">‹</button><span class="title">New Job Request</span><span></span>
-    </div>
-    <div class="scroll">
-     <div class="job-photo" style="height:180px">
-      🚰
-     </div>
-     <div class="section">
-      <span class="badge badge-red">NEW REQUEST</span>
-      <h1>Water leaking under kitchen sink</h1>
-      <div class="job-meta">
-       📍 Colombo 05 · 3 km away
-      </div>
-      <div class="divider"></div><b>Customer description</b>
-      <p class="muted">Water is leaking from the pipe underneath the kitchen sink. Need someone to inspect and repair it.</p>
-      <div class="between">
-       <span class="muted">Suggested price</span><b>Rs. 2,000–3,500</b>
-      </div>
-      <div class="actions">
-       <button class="btn btn-danger" onclick="toast('Job declined')">Decline</button><button class="btn btn-blue" onclick="acceptJob()">Accept Job</button>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section id="workerJobs" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <span class="title">My Jobs</span><button class="iconbtn" onclick="go('notifications')">🔔</button>
-    </div>
-    <div class="tabs">
-     <button class="tab active">New 3</button><button class="tab">Accepted 27</button><button class="tab">In Progress 1</button>
-    </div>
-    <div class="scroll pad">
-     <div class="job-card">
-      <div class="job-body">
-       <span class="badge badge-green">ACCEPTED</span>
-       <div class="job-title" style="margin-top:8px">
-        Kitchen sink pipe repair
-       </div>
-       <div class="job-meta">
-        Ahamed · Colombo 05 · Today, 3:00 PM
-       </div>
-       <div class="actions">
-        <button class="btn btn-dark btn-small" onclick="go('chat')">Message</button><button class="btn btn-blue btn-small" onclick="startJob()">Start Job</button>
-       </div>
-      </div>
-     </div>
-     <div class="job-card" style="margin-top:12px">
-      <div class="job-body">
-       <span class="badge badge-blue">IN PROGRESS</span>
-       <div class="job-title" style="margin-top:8px">
-        Bathroom tap replacement
-       </div>
-       <div class="actions">
-        <button class="btn btn-green btn-small" onclick="completeJob()">Mark Completed</button>
-       </div>
-      </div>
-     </div>
-    </div>
-    <nav class="bottom-nav">
-     <button class="nav-item" onclick="go('workerHome')">⌂<br>
-       Home</button><button class="nav-item active">▣<br>
-       Jobs</button><button class="nav-item" onclick="go('chat')">◌<br>
-       Messages</button><button class="nav-item" onclick="go('workerProfile')">●<br>
-       Profile</button>
-    </nav>
-   </section>
-   <section id="chat" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go(lastScreen||'workerHome')">‹</button>
-     <div class="row">
-      <div class="avatar sm">
-       AH
-      </div>
-      <div>
-       <b>Ahamed</b>
-       <div class="muted small">
-        Online
-       </div>
-      </div>
-     </div><button class="iconbtn">☎</button>
-    </div>
-    <div id="messages" class="scroll chat" style="padding-bottom:150px">
-     <div class="center muted small">
-      Today, 10:24 AM
-     </div>
-     <div class="bubble them">
-      Hi, is this still available?
-     </div>
-     <div class="bubble me">
-      Yes, I can do it today.
-     </div>
-     <div class="bubble them">
-      Can you come around 3 PM?
-     </div>
-    </div>
-    <div class="quick">
-     <button onclick="quickMsg('Yes, I can do it')">Yes, I can do it</button><button onclick="quickMsg('I’ll be there soon')">I’ll be there soon</button><button onclick="go('quotation')">Send quotation</button>
-    </div>
-    <div class="chat-input">
-     <input id="msgInput" placeholder="Type a message…" onkeydown="if(event.key==='Enter')sendMsg()"><button class="send" onclick="sendMsg()">➤</button>
-    </div>
-   </section>
-   <section id="quotation" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('chat')">‹</button><span class="title">Create Quotation</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="card">
-      <span class="muted small">Job</span>
-      <h2>Ceiling fan installation</h2><b>Rs. 2,000–3,500</b>
-     </div>
-     <div class="field" style="margin-top:15px">
-      <div class="label">
-       Your Price (LKR)
-      </div><input id="quotePrice" class="input" type="number" value="2500">
-     </div>
-     <div class="field">
-      <div class="label">
-       Message to customer
-      </div><textarea class="input">I can complete the installation today and will bring the required tools.</textarea>
-     </div><button class="btn btn-blue" onclick="sendQuote()">Send Quotation</button>
-    </div>
-   </section>
-   <section id="workerComplete" class="screen">
-    <div class="scroll center" style="padding:60px 25px;text-align:center">
-     <div style="font-size:70px;color:#55e889">
-      ✓
-     </div>
-     <h1>Job Completed!</h1>
-     <p class="muted">You have successfully completed the job.</p>
-     <div class="card" style="width:100%;margin:22px 0">
-      <div class="muted small">
-       Your earnings
-      </div>
-      <div class="money">
-       Rs. 2,500
-      </div>
-     </div><button class="btn btn-blue" onclick="go('earnings')">View Earnings</button>
-    </div>
-   </section>
-   <section id="earnings" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('workerHome')">‹</button><span class="title">Earnings</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="card">
-      <div class="muted small">
-       This month
-      </div>
-      <div class="money">
-       Rs. 120,500
-      </div>
-      <div class="muted">
-       +12.4% from last month
-      </div>
-     </div>
-     <h3 class="section-title" style="margin-top:20px">Transactions</h3>
-     <div class="card">
-      🔧 Plumbing Repair <b style="float:right;color:var(--green)">+Rs. 2,500</b>
-     </div><button class="btn btn-blue" style="margin-top:15px" onclick="toast('Withdrawal request created in prototype')">Withdraw Earnings</button>
-    </div>
-   </section>
-   
-<section id="workerServices" class="screen">
- <div class="status"><span>9:41</span><span>▮▮▮</span></div>
- <div class="topbar"><button class="back" onclick="go('workerProfile')">‹</button><span class="title">My Services</span><span></span></div>
- <div class="scroll pad">
-  <p class="muted">Select every service you are qualified to provide. Customers can find you through any selected category.</p>
-  <div class="service-wide-grid" style="margin-top:15px">
-   <button class="service-card active">🔧<br>Plumbing</button><button class="service-card">⚡<br>Electrical</button><button class="service-card">🪚<br>Carpentry</button>
-   <button class="service-card">❄️<br>AC & Cooling</button><button class="service-card">🔌<br>Appliance</button><button class="service-card">💻<br>IT Support</button>
-   <button class="service-card">🏍️<br>Auto & Bike</button><button class="service-card">🔐<br>Security</button><button class="service-card">📦<br>Moving</button>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+</head>
+<body>
+<div class="stage">
+ <div class="stage-label">FixMate — Live Dual-Screen Demo · actions on one phone sync to the other in real time</div>
+ <div class="phone-wrap">
+  <span class="phone-tag">📱 CUSTOMER APP · <b>Chinthana Hapuarachchi</b></span>
+  <div class="phone" id="appC"><section id="c-splash" class="screen active splash">
+ <div class="logo-mark">🛠️</div>
+ <div class="brand">FixMate</div>
+ <div class="tagline">Your Problem. Our Mate.</div>
+ <div class="splash-loader"></div>
+</section>
+
+<section id="c-reg" class="screen">
+ <div class="status"><span>9:41</span><div class="status-icons"><span>▮▮▮</span><span>⌁</span><span>▰</span></div></div>
+ <div class="topbar"><span class="title">Customer Registration</span><span></span></div>
+ <form class="scroll pad" onsubmit="event.preventDefault();goC('c-otp')">
+  <div class="hero" style="padding:10px 0 18px">
+   <div class="role-icon" style="width:58px;height:58px;font-size:27px;border-radius:18px">👤</div>
   </div>
-  <button class="btn btn-blue" style="margin-top:18px" onclick="toast('Services updated successfully')">Save Services</button>
+  <div class="field"><div class="label">Full Name</div><input id="c-name" class="input" value="Chinthana Hapuarachchi"></div>
+  <div class="field"><div class="label">Mobile Number</div><input class="input" value="+94 77 987 6543"></div>
+  <div class="field"><div class="label">Home Address</div><input class="input" value="No. 25, Main Street"></div>
+  <button class="btn btn-blue">Continue &amp; Verify Mobile</button>
+  <div class="center small muted" style="margin-top:16px">Already have a FixMate account? <button type="button" class="linkbtn" style="padding:4px" onclick="toastC('Demo login: continue registration to explore the app')">Log in</button></div>
+ </form>
+</section>
+
+<section id="c-otp" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-reg')">‹</button><span class="title">Verify Your Number</span><span></span></div>
+ <div class="scroll pad">
+  <h1>Enter your code</h1>
+  <p class="muted">We sent a 6-digit code to your Sri Lankan mobile number.</p>
+  <div class="otp-row">
+   <input class="input otp-box" maxlength="1" value="1" oninput="otpAdvance(this)"><input class="input otp-box" maxlength="1" value="2" oninput="otpAdvance(this)"><input class="input otp-box" maxlength="1" value="3" oninput="otpAdvance(this)"><input class="input otp-box" maxlength="1" value="4" oninput="otpAdvance(this)"><input class="input otp-box" maxlength="1" value="5" oninput="otpAdvance(this)"><input class="input otp-box" maxlength="1" value="6" oninput="otpAdvance(this)">
+  </div>
+  <div class="notice">Prototype OTP: <b>123456</b></div>
+  <button class="btn btn-blue" style="margin-top:18px" onclick="goC('c-lang')">Verify</button>
  </div>
 </section>
-<section id="workerProfile" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <span class="title">My Profile</span><button class="iconbtn" onclick="go('settings')">⚙</button>
-    </div>
-    <div class="scroll pad">
-     <div class="profile-head">
-      <div class="avatar lg">
-       RP
-      </div>
-      <div>
-       <div class="profile-name">
-        Ramesh Perera
-       </div>
-       <div class="muted">
-        Plumber · Colombo 05
-       </div><span class="badge badge-green">✓ Verified Worker</span>
-      </div>
-     </div>
-     <div class="stat-grid" style="margin-top:20px">
-      <div class="stat">
-       <b>4.8 ★</b><span>Rating</span>
-      </div>
-      <div class="stat">
-       <b>126</b><span>Jobs</span>
-      </div>
-      <div class="stat">
-       <b>100%</b><span>On Time</span>
-      </div>
-     </div><button class="btn btn-dark" style="margin-top:18px" onclick="go('reviews')">View Reviews</button><button class="btn btn-dark" style="margin-top:10px" onclick="go('availability')">Availability</button>
-    </div>
-   </section>
-   <section id="customerHome" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮ ⌁ ▰</span>
-    </div>
-    <div class="topbar">
-     <div>
-      <b>Good Morning, Ahamed</b>
-      <div class="muted small">
-       Colombo 05 · Home
-      </div>
-     </div><button class="iconbtn" onclick="go('notifications')">🔔</button>
-    </div>
-    <div class="scroll">
-     <div class="hero">
-      <h1>Who do you need<br>
-        today?</h1>
-      <p>Find a trusted worker near you in a few taps.</p>
-     </div>
-     <div class="pad">
-      <div class="search">
-       ⌕ <input placeholder="Search to hire: plumber, electrician…" oninput="filterServices(this.value)">
-      </div>
-     </div>
-     <div class="section">
-      <div class="between">
-       <h3 class="section-title">Popular Services</h3><button class="linkbtn" onclick="go('requestJob')">See all</button>
-      </div>
-      <div id="serviceGrid" class="grid3">
-       <button class="service-card" data-name="plumber plumbing" onclick="chooseService('Plumbing')">
-        <div class="service-icon">
-         🔧
-        </div>
-        <div>
-         Plumbing
-        </div></button><button class="service-card" data-name="electrician electrical" onclick="chooseService('Electrical')">
-        <div class="service-icon">
-         ⚡
-        </div>
-        <div>
-         Electrical
-        </div></button><button class="service-card" data-name="carpenter carpentry" onclick="chooseService('Carpentry')">
-        <div class="service-icon">
-         🪚
-        </div>
-        <div>
-         Carpentry
-        </div></button><button class="service-card" data-name="gardener gardening" onclick="chooseService('Gardening')">
-        <div class="service-icon">
-         🌿
-        </div>
-        <div>
-         Gardening
-        </div></button><button class="service-card" data-name="cleaner cleaning" onclick="chooseService('Cleaning')">
-        <div class="service-icon">
-         🧹
-        </div>
-        <div>
-         Cleaning
-        </div></button><button class="service-card" data-name="painter painting" onclick="chooseService('Painting')">
-        <div class="service-icon">
-         🖌️
-        </div>
-        <div>
-         Painting
-        </div></button>
-      </div>
-     </div>
-     <div class="section">
-      <h3 class="section-title">Live Booking</h3>
-      <div class="card">
-       <div class="between">
-        <span><b>Ramesh is arriving</b><br><span class="muted small">Plumber · 12 min away</span></span><button class="linkbtn" onclick="go('tracking')">Track</button>
-       </div>
-      </div>
-     </div>
-    </div>
-    <nav class="bottom-nav">
-     <button class="nav-item active" onclick="go('customerHome')">⌂<br>
-       Home</button><button class="nav-item" onclick="go('bookings')">▣<br>
-       Bookings</button><button class="nav-item" onclick="go('customerChat')">◌<br>
-       Messages</button><button class="nav-item" onclick="go('customerProfile')">●<br>
-       Profile</button>
-    </nav>
-   </section>
-   <section id="requestJob" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('customerHome')">‹</button><span class="title">Request a Job</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <p class="muted">Tell us what you need help with.</p>
-     <div class="grid3">
-      <button class="service-card active" onclick="chooseRequest(this,'Plumbing')">🚰<br>
-        Plumber</button><button class="service-card" onclick="chooseRequest(this,'Electrical')">⚡<br>
-        Electrician</button><button class="service-card" onclick="chooseRequest(this,'Carpentry')">🪚<br>
-        Carpenter</button><button class="service-card" onclick="chooseRequest(this,'Gardening')">🌿<br>
-        Gardener</button><button class="service-card" onclick="chooseRequest(this,'Cleaning')">🧹<br>
-        Cleaner</button><button class="service-card" onclick="chooseRequest(this,'Painting')">🖌️<br>
-        Painter</button>
-     </div><button class="btn btn-blue" style="margin-top:18px" onclick="go('problem')">Continue</button>
-    </div>
-   </section>
-   <section id="problem" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('requestJob')">‹</button><span class="title">Describe the Problem</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <span id="selectedServiceBadge" class="badge badge-blue">Plumbing</span>
-     <div class="field" style="margin-top:17px">
-      <div class="label">
-       What needs to be fixed?
-      </div><textarea class="input">Water is leaking from the pipe underneath my kitchen sink.</textarea>
-     </div><button class="card" style="width:100%;color:#fff;text-align:left;border-style:dashed" onclick="uploadDemo()">＋ <b>Add Photos / Video</b><br><span class="muted small">Help workers understand the issue</span></button>
-     <div id="uploadStatus" class="muted small" style="margin-top:9px"></div><button class="btn btn-blue" style="margin-top:18px" onclick="go('location')">Next</button>
-    </div>
-   </section>
-   <section id="location" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('problem')">‹</button><span class="title">Service Location</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="map" style="height:245px;margin-bottom:16px">
-      <div class="pin customer" style="left:45%;top:46%">
-       <span>●</span>
-      </div>
-      <div class="map-label">
-       <b>Selected location</b><br><span class="muted small">Colombo 05, Sri Lanka</span>
-      </div>
-     </div>
-     <div class="field">
-      <div class="label">
-       Address
-      </div><input class="input" value="No. 25, Main Street, Colombo 05">
-     </div><button class="btn btn-blue" onclick="go('dateTime')">Confirm Location</button>
-    </div>
-   </section>
-   <section id="dateTime" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('location')">‹</button><span class="title">Date &amp; Time</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <h2>When do you need help?</h2>
-     <div class="grid2">
-      <button class="choice selected" onclick="pickTime(this)">ASAP</button><button class="choice" onclick="pickTime(this)">Today</button><button class="choice" onclick="pickTime(this)">Tomorrow</button><button class="choice" onclick="pickTime(this)">Choose Date</button>
-     </div>
-     <h3>Preferred Time</h3>
-     <div class="grid2">
-      <button class="choice selected" onclick="pickTime(this)">9:00 AM</button><button class="choice" onclick="pickTime(this)">11:00 AM</button><button class="choice" onclick="pickTime(this)">3:00 PM</button><button class="choice" onclick="pickTime(this)">5:00 PM</button>
-     </div><button class="btn btn-blue" onclick="go('requestConfirm')">Continue</button>
-    </div>
-   </section>
-   <section id="requestConfirm" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('dateTime')">‹</button><span class="title">Review Request</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="card">
-      <div class="between">
-       <span class="muted">Service</span><b>Plumbing</b>
-      </div>
-      <hr>
-      <div class="between">
-       <span class="muted">Problem</span><b>Water leaking under kitchen sink</b>
-      </div>
-      <hr>
-      <div class="between">
-       <span class="muted">Location</span><b>Colombo 05</b>
-      </div>
-      <hr>
-      <div class="between">
-       <span class="muted">Time</span><b>Today · 3:00 PM</b>
-      </div>
-     </div>
-     <div class="notice" style="margin-top:14px">
-      Estimated service range: <b>Rs. 2,000 – 3,500</b>.
-     </div><button class="btn btn-blue" style="margin-top:16px" onclick="findWorkers()">Request Worker</button>
-    </div>
-   </section>
-   <section id="searching" class="screen">
-    <div class="scroll center" style="padding:40px 25px;text-align:center">
-     <div style="width:100px;height:100px;border:4px solid #17345d;border-top-color:var(--blue);border-radius:50%;animation:spin 1.1s linear infinite;margin-bottom:25px"></div>
-     <h1>Finding trusted workers</h1>
-     <p class="muted">Searching near Colombo 05…</p>
-    </div>
-   </section>
-   <style>@keyframes spin{to{transform:rotate(360deg)}}</style>
-   <section id="workers" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('customerHome')">‹</button><span class="title">Workers Near You</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="card">
-      <div class="profile-head">
-       <div class="avatar">
-        RP
-       </div>
-       <div style="flex:1">
-        <b>Ramesh Perera</b><br><span class="muted small">Plumber · 2.1 km away</span><br><span style="color:var(--yellow)">★ 4.8</span>
-       </div><span class="badge badge-green">VERIFIED</span>
-      </div>
-      <div class="actions">
-       <button class="btn btn-dark btn-small" onclick="go('customerWorkerProfile')">View Profile</button><button class="btn btn-blue btn-small" onclick="go('quotes')">Request Quote</button>
-      </div>
-     </div>
-     <div class="card" style="margin-top:11px">
-      <b>Kamal Silva</b>
-      <p class="muted small">Plumber · 3.4 km away · ★ 4.7</p><button class="btn btn-blue btn-small" onclick="go('quotes')">Request Quote</button>
-     </div>
-    </div>
-   </section>
-   <section id="customerWorkerProfile" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('workers')">‹</button><span class="title">Worker Profile</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div style="text-align:center">
-      <div class="avatar lg" style="margin:auto">
-       RP
-      </div>
-      <h2>Ramesh Perera</h2>
-      <div class="muted">
-       Professional Plumber
-      </div><span class="badge badge-green">✓ Verified Worker</span>
-     </div>
-     <div class="stat-grid" style="margin-top:20px">
-      <div class="stat">
-       <b>6 yrs</b><span>Experience</span>
-      </div>
-      <div class="stat">
-       <b>126</b><span>Completed</span>
-      </div>
-      <div class="stat">
-       <b>4.8★</b><span>Rating</span>
-      </div>
-     </div>
-     <div class="actions">
-      <button class="btn btn-dark" onclick="go('customerChat')">Message</button><button class="btn btn-blue" onclick="go('quotes')">Request Quote</button>
-     </div>
-    </div>
-   </section>
-   <section id="quotes" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('workers')">‹</button><span class="title">Your Quotations</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <p class="muted">Choose a quotation that works for you.</p>
-     <div class="card">
-      <div class="profile-head">
-       <div class="avatar">
-        RP
-       </div>
-       <div>
-        <b>Ramesh Perera</b><br><span style="color:var(--yellow)">★ 4.8</span>
-       </div>
-      </div>
-      <div class="divider"></div>
-      <div class="between">
-       <span class="muted">Quotation</span><span class="money">Rs. 2,500</span>
-      </div>
-      <div class="job-meta">
-       Can arrive today at 3:00 PM.
-      </div>
-      <div class="actions">
-       <button class="btn btn-dark btn-small" onclick="go('customerChat')">Message</button><button class="btn btn-blue btn-small" onclick="acceptQuote()">Accept</button>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section id="customerChat" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('customerHome')">‹</button>
-     <div class="row">
-      <div class="avatar sm">
-       RP
-      </div>
-      <div>
-       <b>Ramesh Perera</b>
-       <div class="muted small">
-        Online · Plumber
-       </div>
-      </div>
-     </div><span></span>
-    </div>
-    <div id="customerMessages" class="scroll chat" style="padding-bottom:145px">
-     <div class="bubble me">
-      Hi, can you come today?
-     </div>
-     <div class="bubble them">
-      Yes. I can reach you around 3:00 PM.
-     </div>
-    </div>
-    <div class="chat-input">
-     <input id="customerMsgInput" placeholder="Type a message…" onkeydown="if(event.key==='Enter')sendCustomerMsg()"><button class="send" onclick="sendCustomerMsg()">➤</button>
-    </div>
-   </section>
-   <section id="tracking" class="screen">
-    <div class="topbar" style="position:absolute;z-index:6;left:0;right:0">
-     <button class="iconbtn" onclick="go('customerHome')">‹</button><span class="title">Tracking</span><span></span>
-    </div>
-    <div class="map" style="height:100%;border:0;border-radius:0">
-     <div class="route"></div>
-     <div class="pin customer">
-      <span>⌂</span>
-     </div>
-     <div class="pin worker">
-      <span>●</span>
-     </div>
-     <div class="map-label">
-      <div class="profile-head">
-       <div class="avatar sm">
-        RP
-       </div>
-       <div>
-        <b>Ramesh · Plumber</b><br><span class="muted small">Arriving in approximately 12 min</span>
-       </div>
-      </div>
-      <div class="actions">
-       <button class="btn btn-dark btn-small" onclick="toast('Calling Ramesh…')">☎ Call</button><button class="btn btn-blue btn-small" onclick="go('finalQuote')">View Final Quote</button>
-      </div>
-     </div>
-    </div>
-   </section>
-   
-<section id="finalQuote" class="screen">
+
+<section id="c-lang" class="screen">
  <div class="status"><span>9:41</span><span>▮▮▮</span></div>
- <div class="topbar"><button class="back" onclick="go('tracking')">‹</button><span class="title">Final Quote</span><span></span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-otp')">‹</button><span class="title">Choose Your Language</span><span></span></div>
+ <div class="scroll pad">
+  <p class="muted">Select your preferred language.</p>
+  <div style="margin-top:20px">
+   <button class="choice" onclick="selectChoice(this)">🇱🇰 සිංහල <span class="radio"></span></button>
+   <button class="choice" onclick="selectChoice(this)">🇱🇰 தமிழ் <span class="radio"></span></button>
+   <button class="choice selected" onclick="selectChoice(this)">🇬🇧 English <span class="radio"></span></button>
+  </div>
+  <button class="btn btn-blue" onclick="goC('c-home')">Continue</button>
+ </div>
+</section>
+
+<section id="c-home" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮ ⌁ ▰</span></div>
+ <div class="topbar">
+  <div><b>Good Morning, Chinthana Hapuarachchi</b><div class="muted small">Colombo 05 · Home</div></div>
+  <button class="iconbtn" onclick="goC('c-notif')">🔔<span id="c-nav-dot-bell" class="nav-dot" style="top:2px;right:2px"></span></button>
+ </div>
+ <div class="scroll">
+  <div class="hero"><h1>Who do you need<br>today?</h1><p>Find a trusted worker near you in a few taps.</p></div>
+  <div class="pad"><div class="search">⌕ <input placeholder="Search to hire: plumber, electrician…" oninput="filterServicesC(this.value)"></div></div>
+  <div class="section">
+   <div class="between"><h3 class="section-title">Popular Services</h3><button class="linkbtn" onclick="goC('c-allservices')">See all</button></div>
+   <div id="c-serviceGrid" class="grid3">
+    <button class="service-card" data-name="plumber plumbing" onclick="chooseServiceC('Plumbing','🔧')"><div class="service-icon">🔧</div><div class="service-name">Plumbing</div></button>
+    <button class="service-card" data-name="electrician electrical" onclick="chooseServiceC('Electrical','⚡')"><div class="service-icon">⚡</div><div class="service-name">Electrical</div></button>
+    <button class="service-card" data-name="carpenter carpentry" onclick="chooseServiceC('Carpentry','🪚')"><div class="service-icon">🪚</div><div class="service-name">Carpentry</div></button>
+    <button class="service-card" data-name="gardener gardening" onclick="chooseServiceC('Gardening','🌿')"><div class="service-icon">🌿</div><div class="service-name">Gardening</div></button>
+    <button class="service-card" data-name="cleaner cleaning" onclick="chooseServiceC('Cleaning','🧹')"><div class="service-icon">🧹</div><div class="service-name">Cleaning</div></button>
+    <button class="service-card" data-name="appliance repair" onclick="chooseServiceC('Appliance Repair','🔌')"><div class="service-icon">🔌</div><div class="service-name">Appliance Repair</div></button>
+   </div>
+  </div>
+  <div class="section">
+   <h3 class="section-title">Live Booking</h3>
+   <div id="c-liveBookingCard" class="card hidden">
+    <div class="between"><span><b id="c-liveBookingTitle">Ramesh is arriving</b><br><span class="muted small" id="c-liveBookingSub">Plumber · on the way</span></span><button class="linkbtn" onclick="goC('c-tracking')">Track</button></div>
+   </div>
+   <div id="c-noBookingCard" class="card"><span class="muted small">No active booking yet. Tap a service above to request help.</span></div>
+  </div>
+ </div>
+ <nav class="bottom-nav">
+  <button class="nav-item active" data-nav="c-home" onclick="goC('c-home')"><span class="nav-icon">⌂</span>Home</button>
+  <button class="nav-item" data-nav="c-bookings" onclick="goC('c-bookings')"><span class="nav-icon">▣</span>Bookings</button>
+  <button class="nav-item" data-nav="c-chat" onclick="goC('c-chat')"><span class="nav-icon">◌</span>Messages<span id="c-nav-dot-chat" class="nav-dot"></span></button>
+  <button class="nav-item" data-nav="c-profile" onclick="goC('c-profile')"><span class="nav-icon">●</span>Profile</button>
+ </nav>
+</section>
+
+<section id="c-allservices" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-home')">‹</button><span class="title">All Services</span><span></span></div>
+ <div class="scroll pad">
+  <div class="grid3">
+   <button class="service-card" onclick="chooseServiceC('Plumbing','🔧')"><div class="service-icon">🔧</div><div class="service-name">Plumbing</div></button>
+   <button class="service-card" onclick="chooseServiceC('Electrical','⚡')"><div class="service-icon">⚡</div><div class="service-name">Electrical</div></button>
+   <button class="service-card" onclick="chooseServiceC('Carpentry','🪚')"><div class="service-icon">🪚</div><div class="service-name">Carpentry</div></button>
+   <button class="service-card" onclick="chooseServiceC('Cleaning','🧹')"><div class="service-icon">🧹</div><div class="service-name">Cleaning</div></button>
+   <button class="service-card" onclick="chooseServiceC('Painting','🖌️')"><div class="service-icon">🖌️</div><div class="service-name">Painting</div></button>
+   <button class="service-card" onclick="chooseServiceC('Gardening','🌿')"><div class="service-icon">🌿</div><div class="service-name">Gardening</div></button>
+   <button class="service-card" onclick="chooseServiceC('AC & Refrigeration','❄️')"><div class="service-icon">❄️</div><div class="service-name">AC &amp; Cooling</div></button>
+   <button class="service-card" onclick="chooseServiceC('Appliance Repair','🔌')"><div class="service-icon">🔌</div><div class="service-name">Appliance Repair</div></button>
+   <button class="service-card" onclick="chooseServiceC('Packers &amp; Movers','📦')"><div class="service-icon">📦</div><div class="service-name">Packers/Movers</div></button>
+   <button class="service-card" onclick="chooseServiceC('Welding & Metal Work','🔩')"><div class="service-icon">🔩</div><div class="service-name">Welding</div></button>
+   <button class="service-card" onclick="chooseServiceC('Auto & Bike Repair','🏍️')"><div class="service-icon">🏍️</div><div class="service-name">Auto &amp; Bike</div></button>
+   <button class="service-card" onclick="chooseServiceC('Pest Control','🐜')"><div class="service-icon">🐜</div><div class="service-name">Pest Control</div></button>
+   <button class="service-card" onclick="chooseServiceC('IT & Computer Support','💻')"><div class="service-icon">💻</div><div class="service-name">IT Support</div></button>
+   <button class="service-card" onclick="chooseServiceC('Home Security','🔐')"><div class="service-icon">🔐</div><div class="service-name">Security</div></button>
+  </div>
+ </div>
+</section>
+
+<section id="c-problem" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-home')">‹</button><span class="title">Describe the Problem</span><span></span></div>
+ <div class="scroll pad">
+  <span id="c-selectedServiceBadge" class="badge badge-blue">Plumbing</span>
+  <div class="field" style="margin-top:16px">
+   <div class="label">What needs to be fixed?</div>
+   <textarea id="c-problemText" class="input"></textarea>
+  </div>
+  <button class="card" style="width:100%;color:#fff;text-align:left;border-style:dashed" onclick="uploadDemoC()">＋ <b>Add Photos / Video</b><br><span class="muted small">Help workers understand the issue</span></button>
+  <div id="c-uploadStatus" class="muted small" style="margin-top:8px"></div>
+  <button class="btn btn-blue" style="margin-top:18px" onclick="goC('c-location')">Next</button>
+ </div>
+</section>
+
+<section id="c-location" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-problem')">‹</button><span class="title">Service Location</span><span></span></div>
+ <div class="scroll pad">
+  <div id="c-locMap" style="height:220px;margin-bottom:15px;border-radius:16px;overflow:hidden;border:1px solid var(--line)"></div>
+  <div class="field"><div class="label">Address</div><input id="c-addr" class="input" value="No. 25, Main Street, Colombo 05"></div>
+  <button class="btn btn-blue" onclick="goC('c-datetime')">Confirm Location</button>
+ </div>
+</section>
+
+<section id="c-datetime" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-location')">‹</button><span class="title">Date &amp; Time</span><span></span></div>
+ <div class="scroll pad">
+  <h2>When do you need help?</h2>
+  <button class="choice selected" onclick="pickWhen(this,'Now')"><span><b>⚡ Now</b><br><span class="muted small">A worker will be requested immediately</span></span><span class="radio"></span></button>
+  <button class="choice" onclick="pickWhen(this,'Date & Time')"><span><b>🗓️ Date &amp; Time</b><br><span class="muted small">Pick a day and time that suits you</span></span><span class="radio"></span></button>
+  <div id="c-whenPicker" class="hidden" style="margin-top:14px">
+   <div class="grid2">
+    <input class="input" type="date" id="c-pickDate">
+    <input class="input" type="time" id="c-pickTime" value="15:00">
+   </div>
+  </div>
+  <button class="btn btn-blue" style="margin-top:18px" onclick="confirmDateTime()">Continue</button>
+ </div>
+</section>
+
+<section id="c-review" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-datetime')">‹</button><span class="title">Review Request</span><span></span></div>
  <div class="scroll pad">
   <div class="card">
-   <div class="between"><div><span class="muted small">Verified Worker</span><br><b>Ramesh Perera</b><br><span class="muted small">Plumber · ★ 4.8</span></div><span class="badge badge-green">ON SITE</span></div>
+   <div class="between"><span class="muted">Service</span><b id="c-rev-service">Plumbing</b></div><hr>
+   <div class="between"><span class="muted">Problem</span><b id="c-rev-problem" style="text-align:right;max-width:60%">—</b></div><hr>
+   <div class="between"><span class="muted">Location</span><b id="c-rev-loc">Colombo 05</b></div><hr>
+   <div class="between"><span class="muted">Time</span><b id="c-rev-time">Now</b></div>
   </div>
-  <div class="card" style="margin-top:12px">
+  <div class="notice" style="margin-top:14px">Estimated service range: <b id="c-rev-range">Rs. 2,000 – 3,500</b>.</div>
+  <button class="btn btn-blue" style="margin-top:16px" onclick="findWorkers()">Request Worker</button>
+ </div>
+</section>
+
+<section id="c-searching" class="screen">
+ <div class="scroll center" style="padding:40px 25px;text-align:center">
+  <div style="width:96px;height:96px;border:4px solid #17345d;border-top-color:var(--blue);border-radius:50%;animation:spin 1.1s linear infinite;margin-bottom:24px"></div>
+  <h1>Finding trusted workers</h1>
+  <p class="muted">Searching near Colombo 05…</p>
+ </div>
+</section>
+
+<section id="c-workers" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-home')">‹</button><span class="title">Workers Near You</span><span></span></div>
+ <div id="c-workersList" class="scroll pad"></div>
+</section>
+
+<section id="c-workerprofile" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-workers')">‹</button><span class="title">Worker Profile</span><span></span></div>
+ <div class="scroll pad">
+  <div style="text-align:center">
+   <div class="avatar lg" style="margin:auto" id="c-wp-avatar">RP</div>
+   <h2 id="c-wp-name">Ramesh Perera</h2>
+   <div class="muted" id="c-wp-role">Professional Plumber</div>
+   <span class="badge badge-green">✓ Verified Worker</span>
+  </div>
+  <div class="stat-grid" style="margin-top:18px">
+   <div class="stat"><b id="c-wp-exp">6 yrs</b><span>Experience</span></div>
+   <div class="stat"><b id="c-wp-jobs">126</b><span>Completed</span></div>
+   <div class="stat"><b id="c-wp-rating">4.8★</b><span>Rating</span></div>
+  </div>
+  <div class="actions"><button class="btn btn-dark" onclick="goC('c-chat')">Message</button><button class="btn btn-blue" onclick="acceptQuoteFromWorker()">Request Quote</button></div>
+ </div>
+</section>
+
+<section id="c-quotes" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-workers')">‹</button><span class="title">Your Quotations</span><span></span></div>
+ <div id="c-quotesList" class="scroll pad">
+  <p class="muted">Waiting for workers to respond with quotations…</p>
+ </div>
+</section>
+
+<section id="c-chat" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar">
+  <button class="back" onclick="goC(cLastMain())">‹</button>
+  <div class="row"><div class="avatar sm">RP</div><div><b>Ramesh Perera</b><div class="muted small">Online · Plumber</div></div></div>
+  <button class="iconbtn" onclick="callWorker()">☎</button>
+ </div>
+ <div id="c-messages" class="scroll chat" style="padding-bottom:145px">
+  <div class="center muted small">Today</div>
+ </div>
+ <div class="chat-input"><input id="c-msgInput" placeholder="Type a message…" onkeydown="if(event.key==='Enter')sendMsgC()"><button class="send" onclick="sendMsgC()">➤</button></div>
+</section>
+
+<section id="c-tracking" class="screen">
+ <div class="topbar" style="position:absolute;z-index:600;left:0;right:0;background:linear-gradient(#000,transparent)">
+  <button class="iconbtn" onclick="goC('c-home')">‹</button><span class="title">Tracking</span><span></span>
+ </div>
+ <div id="c-trackMap" class="leafmap" style="height:100%"></div>
+ <div class="map-label">
+  <div class="profile-head">
+   <div class="avatar sm">RP</div>
+   <div><b>Ramesh · Plumber</b><br><span class="muted small" id="c-etaText">Arriving in approximately 12 min</span></div>
+  </div>
+  <div class="eta-track"><div class="eta-fill" id="c-etaFill"></div></div>
+  <div class="actions"><button class="btn btn-dark btn-small" onclick="callWorker()">☎ Call</button><button class="btn btn-blue btn-small" id="c-viewQuoteBtn" onclick="goC('c-finalquote')" disabled>View Final Quote</button></div>
+ </div>
+</section>
+
+<section id="c-finalquote" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-tracking')">‹</button><span class="title">Final Quote</span><span></span></div>
+ <div class="scroll pad">
+  <div class="card"><div class="between"><div><span class="muted small">Verified Worker</span><br><b>Ramesh Perera</b><br><span class="muted small">Plumber · ★ 4.8</span></div><span class="badge badge-green">ON SITE</span></div></div>
+  <div class="card" id="c-billCard" style="margin-top:12px">
    <h3 style="margin-top:0">Service Price</h3>
-   <div class="invoice-line"><span>Labour & service</span><b>Rs. 2,500</b></div>
-   <div class="invoice-line"><span>FixMate service fee</span><b>Rs. 100</b></div>
-   <div class="invoice-line" style="font-size:17px;border-bottom:0"><b>Total</b><b>Rs. 2,600</b></div>
+   <div id="c-billLines"></div>
   </div>
   <div class="notice" style="margin-top:14px">The final price is shown before payment. You can review the work and price before confirming.</div>
-  <button class="btn btn-blue" style="margin-top:16px" onclick="acceptFinalQuote()">Accept Price & Continue</button>
-  <button class="btn btn-dark" style="margin-top:9px" onclick="go('customerChat')">Ask Worker a Question</button>
+  <button class="btn btn-blue" style="margin-top:16px" onclick="acceptFinalQuote()">Accept Price &amp; Continue</button>
+  <button class="btn btn-dark" style="margin-top:9px" onclick="goC('c-chat')">Ask Worker a Question</button>
  </div>
 </section>
-<section id="invoice" class="screen">
+
+<section id="c-payment" class="screen">
  <div class="status"><span>9:41</span><span>▮▮▮</span></div>
- <div class="topbar"><button class="back" onclick="go('paymentSuccess')">‹</button><span class="title">Invoice & Receipt</span><button class="iconbtn" onclick="printInvoice()">↗</button></div>
+ <div class="topbar"><button class="back" onclick="goC('c-tracking')">‹</button><span class="title">Payment</span><span></span></div>
  <div class="scroll pad">
-  <div class="invoice-paper" id="invoicePaper">
-   <div style="text-align:center"><div class="logo-mark" style="margin:auto;width:58px;height:58px">✓</div><h2 style="margin:10px 0 2px">FixMate</h2><div style="font-size:12px;color:#66717d">Your Problem. Our Mate.</div></div>
-   <div style="margin-top:18px;font-size:12px;color:#66717d">PAID RECEIPT</div>
-   <div class="invoice-line"><span>Invoice No.</span><b>INV-FM-2026-00125</b></div>
-   <div class="invoice-line"><span>Booking ID</span><b>FM-2026-00125</b></div>
-   <div class="invoice-line"><span>Customer</span><b>Ahamed</b></div>
-   <div class="invoice-line"><span>Worker</span><b>Ramesh Perera</b></div>
-   <div class="invoice-line"><span>Service</span><b>Plumbing</b></div>
-   <div class="invoice-line"><span>Service amount</span><b>Rs. 2,500</b></div>
-   <div class="invoice-line"><span>FixMate fee</span><b>Rs. 100</b></div>
-   <div class="invoice-line" style="font-size:18px;border-bottom:0"><b>Total Paid</b><b>Rs. 2,600</b></div>
-   <div style="text-align:center;margin-top:18px;font-size:11px;color:#66717d">Payment recorded successfully · Thank you for using FixMate.</div>
+  <div class="card" style="text-align:center">
+   <div class="muted small">Amount due</div>
+   <div class="money" id="c-payAmount">Rs. 2,600</div>
+   <div class="muted small" id="c-paySub">Service + FixMate fee</div>
   </div>
-  <button class="btn btn-blue" style="margin-top:16px" onclick="go('rating')">Rate Worker</button>
-  <button class="btn btn-dark" style="margin-top:9px" onclick="printInvoice()">Print / Save Receipt</button>
+  <h3>Choose Payment Method</h3>
+  <button class="choice selected" onclick="selectChoice(this)">💵 Cash on Completion <span class="radio"></span></button>
+  <button class="choice" onclick="selectChoice(this)">🏦 Bank Transfer <span class="radio"></span></button>
+  <button class="choice" onclick="selectChoice(this)">💳 Card Payment <span class="radio"></span></button>
+  <button class="btn btn-blue" onclick="payC()">Confirm Payment</button>
  </div>
 </section>
-<section id="payment" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('tracking')">‹</button><span class="title">Payment</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="card" style="text-align:center">
-      <div class="muted small">
-       Amount due
-      </div>
-      <div class="money">
-       Rs. 2,600
-      </div>
-      <div class="muted small">
-       Service Rs. 2,500 + FixMate fee Rs. 100
-      </div>
-     </div>
-     <h3>Choose Payment Method</h3><button class="choice selected" onclick="selectChoice(this)">💵 Cash on Completion <span class="radio"></span></button><button class="choice" onclick="selectChoice(this)">🏦 Bank Transfer <span class="radio"></span></button><button class="choice" onclick="selectChoice(this)">💳 Card Payment <span class="radio"></span></button><button class="btn btn-blue" onclick="pay()">Confirm Payment</button>
-    </div>
-   </section>
-   <section id="paymentSuccess" class="screen">
-    <div class="scroll center" style="padding:55px 24px;text-align:center">
-     <div style="font-size:75px;color:#55e889">
-      ✓
-     </div>
-     <h1>Payment Successful</h1>
-     <p class="muted">Your payment has been securely recorded.</p>
-     <div class="card" style="width:100%;text-align:left">
-      <div class="between">
-       <span class="muted">Amount</span><b>Rs. 2,600</b>
-      </div>
-      <hr>
-      <div class="between">
-       <span class="muted">Booking ID</span><b>FM-2026-00125</b>
-      </div>
-     </div><button class="btn btn-blue" style="margin-top:20px" onclick="go('invoice')">View Invoice & Receipt</button>
-    </div>
-   </section>
-   <section id="completed" class="screen">
-    <div class="scroll center" style="padding:45px 25px;text-align:center">
-     <div style="font-size:60px">
-      🎉
-     </div>
-     <h1>Your job is completed!</h1>
-     <p class="muted">Thanks for using FixMate.</p>
-     <div class="card" style="width:100%;text-align:left">
-      <div class="between">
-       <span class="muted">Service</span><b>Plumbing</b>
-      </div>
-      <hr>
-      <div class="between">
-       <span class="muted">Worker</span><b>Ramesh Perera</b>
-      </div>
-      <hr>
-      <div class="between">
-       <span class="muted">Amount</span><b>Rs. 2,500</b>
-      </div>
-     </div><button class="btn btn-blue" style="margin-top:18px" onclick="go('rating')">Rate &amp; Review</button>
-    </div>
-   </section>
-   <section id="rating" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('completed')">‹</button><span class="title">Rate Your Experience</span><span></span>
-    </div>
-    <div class="scroll pad" style="text-align:center">
-     <div class="avatar lg" style="margin:20px auto">
-      RP
-     </div>
-     <h2>How was your experience?</h2>
-     <p class="muted">Ramesh Perera · Plumbing</p>
-     <div id="stars" style="font-size:38px;margin:18px 0">
-      <button onclick="setRating(1)">☆</button><button onclick="setRating(2)">☆</button><button onclick="setRating(3)">☆</button><button onclick="setRating(4)">☆</button><button onclick="setRating(5)">☆</button>
-     </div><textarea class="input" placeholder="Write a review…"></textarea><button class="btn btn-blue" style="margin-top:14px" onclick="submitReview()">Submit Review</button>
-    </div>
-   </section>
-   <section id="bookings" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <span class="title">My Bookings</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="card">
-      <span class="badge badge-blue">CONFIRMED</span>
-      <h3>Plumbing Repair</h3>
-      <p class="muted small">Ramesh Perera · Colombo 05 · Today, 3:00 PM</p>
-      <div class="between">
-       <b>Rs. 2,500</b><button class="btn btn-dark btn-small" style="width:auto" onclick="go('tracking')">Track</button>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section id="customerProfile" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <span class="title">My Profile</span><button class="iconbtn" onclick="go('settings')">⚙</button>
-    </div>
-    <div class="scroll pad">
-     <div class="profile-head">
-      <div class="avatar lg">
-       AH
-      </div>
-      <div>
-       <div class="profile-name">
-        Ahamed
-       </div>
-       <div class="muted">
-        Colombo 05
-       </div><span class="badge badge-green">✓ Phone Verified</span>
-      </div>
-     </div><button class="choice" onclick="go('bookings')">▣ <b>My Bookings</b><span>›</span></button><button class="choice" onclick="go('settings')">⚙ <b>Settings</b><span>›</span></button><button class="choice" onclick="go('support')">❓ <b>Help &amp; Support</b><span>›</span></button>
-    </div>
-   </section>
-   <section id="notifications" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go(lastScreen||'customerHome')">‹</button><span class="title">Notifications</span><button class="linkbtn" onclick="toast('All notifications marked as read')">Read all</button>
-    </div>
-    <div class="scroll pad">
-     <div class="card">
-      ✓ <b>Ramesh accepted your request.</b><br><span class="muted small">2 min ago</span>
-     </div>
-     <div class="card" style="margin-top:10px">
-      🚗 <b>Your worker is on the way.</b><br><span class="muted small">12 min ago</span>
-     </div>
-     <div class="card" style="margin-top:10px">
-      💳 <b>Payment received successfully.</b>
-     </div>
-    </div>
-   </section>
-   <section id="settings" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go(lastScreen||'customerProfile')">‹</button><span class="title">Settings</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <h3>Account</h3><button class="choice" onclick="toast('Language settings opened')">🌐 <b>Language</b><span>English ›</span></button><button class="choice" onclick="toast('Notification settings opened')">🔔 <b>Notifications</b><span>›</span></button>
-     <h3>Support</h3><button class="choice" onclick="go('support')">❓ <b>Help &amp; Support</b><span>›</span></button><button class="choice" onclick="go('about')">ℹ️ <b>About FixMate</b><span>›</span></button><button class="btn btn-danger" onclick="go('welcome')">Log Out</button>
-    </div>
-   </section>
-   <section id="support" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go(lastScreen||'customerProfile')">‹</button><span class="title">Help &amp; Support</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="search">
-      ⌕ <input placeholder="Search help">
-     </div>
-     <h3>How can we help?</h3>
-     <div class="grid2">
-      <button class="card2">📅<br><b>Booking Help</b></button><button class="card2">💳<br><b>Payment Help</b></button><button class="card2">🧰<br><b>Worker Issues</b></button><button class="card2">👤<br><b>Account Help</b></button>
-     </div><button class="btn btn-blue" style="margin-top:18px" onclick="toast('Connecting you with FixMate Support')">Contact FixMate</button><button class="btn btn-dark" style="margin-top:10px" onclick="go('report')">Report a Problem</button><button class="btn btn-danger" style="margin-top:10px" onclick="go('emergency')">Emergency Support</button>
-    </div>
-   </section>
-   <section id="report" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('support')">‹</button><span class="title">Report a Problem</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="field">
-      <div class="label">
-       Booking ID
-      </div><input class="input" value="FM-2026-00125">
-     </div>
-     <div class="field">
-      <div class="label">
-       Description
-      </div><textarea class="input" placeholder="Tell us what happened…"></textarea>
-     </div><button class="btn btn-blue" onclick="toast('Report submitted — Ticket FM-SUPPORT-1025')">Submit Report</button>
-    </div>
-   </section>
-   <section id="emergency" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('support')">‹</button><span class="title">Emergency Service</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="notice" style="background:#321216;border-color:#64252c;color:#ffb5ba">
-      <b>Need urgent help?</b><br>
-       Emergency services may have additional charges.
-     </div>
-     <h2>Choose an emergency service</h2>
-     <div class="grid2">
-      <button class="card2">🚰<br><b>Emergency Plumber</b></button><button class="card2">⚡<br><b>Emergency Electrician</b></button><button class="card2">🔐<br><b>Locksmith</b></button><button class="card2">❄️<br><b>AC Emergency</b></button>
-     </div><button class="btn btn-danger" style="margin-top:15px" onclick="toast('Finding the nearest verified emergency worker')">Find Emergency Worker</button>
-    </div>
-   </section>
-   <section id="reviews" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('workerProfile')">‹</button><span class="title">Reviews</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="card" style="text-align:center">
-      <div class="money">
-       4.8 ★
-      </div>
-      <div class="muted small">
-       Based on 32 reviews
-      </div>
-     </div>
-     <div class="card" style="margin-top:15px">
-      ★★★★★ 
-      <p>“Very professional and arrived on time.”</p><span class="muted small">Ahamed · 20 Sep 2026</span>
-     </div>
-    </div>
-   </section>
-   <section id="availability" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('workerProfile')">‹</button><span class="title">Availability</span><span></span>
-    </div>
-    <div class="scroll pad">
-     <div class="card">
-      <div class="between">
-       <span><b>Available for Jobs</b><br><span class="muted small">Customers can request you</span></span><button id="availToggle" class="badge badge-green" onclick="toggleAvailability()">● ONLINE</button>
-      </div>
-     </div>
-     <h3>Working Days</h3>
-     <div class="grid2">
-      <button class="choice selected">Monday</button><button class="choice selected">Tuesday</button><button class="choice selected">Wednesday</button><button class="choice selected">Thursday</button><button class="choice selected">Friday</button><button class="choice selected">Saturday</button>
-     </div><button class="btn btn-blue" onclick="toast('Availability saved')">Save Availability</button>
-    </div>
-   </section>
-   <section id="about" class="screen">
-    <div class="status">
-     <span>9:41</span><span>▮▮▮</span>
-    </div>
-    <div class="topbar">
-     <button class="back" onclick="go('settings')">‹</button><span class="title">About FixMate</span><span></span>
-    </div>
-    <div class="scroll center" style="padding:30px;text-align:center;flex-direction:column">
-     <div class="logo-mark"><img data-template-id="about-logo" class="canva-image" loading="lazy" src="canva://MAHWXrNTBa4/1" alt="Blue metallic circular repair emblem showing a worker and customer shaking hands">
-     </div>
-     <h1>FixMate</h1>
-     <p class="muted">Your Problem. Our Mate.</p>
-     <p class="muted" style="max-width:310px;line-height:1.6">A Sri Lankan service marketplace connecting customers with verified skilled workers for everyday jobs.</p><span class="badge badge-blue">Prototype v1.0</span>
-    </div>
-   </section>
-   <div id="toast" class="toast"></div>
+
+<section id="c-paysuccess" class="screen">
+ <div class="scroll center" style="padding:50px 24px 24px;text-align:center">
+  <div style="font-size:72px;color:#55e889">✓</div>
+  <h1>Payment Successful</h1>
+  <p class="muted">Your payment has been securely recorded.</p>
+  <div class="card" style="width:100%;text-align:left;margin-top:6px">
+   <div class="between"><span class="muted">Amount</span><b id="c-ps-amount">Rs. 2,600</b></div><hr>
+   <div class="between"><span class="muted">Booking ID</span><b id="c-ps-id">FM-2026-00125</b></div>
   </div>
-  <script>
-const state={current:'splash',service:'Plumbing',rating:0};let lastScreen='welcome';
-function go(id){const target=document.getElementById(id);if(!target)return;const current=document.querySelector('.screen.active');if(current&&current.id!==id)lastScreen=current.id;document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));target.classList.add('active');state.current=id;const sc=target.querySelector('.scroll');if(sc)sc.scrollTop=0}window.go=go;
-setTimeout(()=>go('welcome'),1700);
-function toast(msg){const el=document.getElementById('toast');el.textContent=msg;el.classList.add('show');clearTimeout(window.__toast);window.__toast=setTimeout(()=>el.classList.remove('show'),2300)}window.toast=toast;
-function selectChoice(el){const p=el.parentElement;p.querySelectorAll('.choice').forEach(x=>x.classList.remove('selected'));el.classList.add('selected')}window.selectChoice=selectChoice;
-function chooseService(s){state.service=s;document.getElementById('selectedServiceBadge').textContent=s;go('problem')}window.chooseService=chooseService;
-function chooseRequest(el,s){document.querySelectorAll('#requestJob .service-card').forEach(x=>x.classList.remove('active'));el.classList.add('active');state.service=s}window.chooseRequest=chooseRequest;
-function filterWorkerJobs(v){const q=v.toLowerCase().trim();document.querySelectorAll('.worker-search-item').forEach(c=>c.style.display=!q||c.dataset.work.includes(q)?'block':'none')}window.filterWorkerJobs=filterWorkerJobs;
-function filterServices(v){const q=v.toLowerCase();document.querySelectorAll('#serviceGrid .service-card').forEach(c=>c.style.display=!q||c.dataset.name.includes(q)?'block':'none')}window.filterServices=filterServices;
-function uploadDemo(){document.getElementById('uploadStatus').textContent='✓ 3 demo photos attached';toast('3 photos attached')}window.uploadDemo=uploadDemo;
-function findWorkers(){go('searching');setTimeout(()=>go('workers'),1600)}window.findWorkers=findWorkers;
-function acceptJob(){toast('Job accepted successfully');setTimeout(()=>go('workerJobs'),600)}window.acceptJob=acceptJob;
-function startJob(){toast('Job started — customer has been notified');setTimeout(()=>go('chat'),700)}window.startJob=startJob;
-function completeJob(){toast('Job marked as completed');setTimeout(()=>go('workerComplete'),650)}window.completeJob=completeJob;
-function sendMsg(){const i=document.getElementById('msgInput'),v=i.value.trim();if(!v)return;const w=document.getElementById('messages'),b=document.createElement('div');b.className='bubble me';b.textContent=v;w.appendChild(b);i.value='';w.scrollTop=w.scrollHeight;setTimeout(()=>{const r=document.createElement('div');r.className='bubble them';r.textContent='Thanks! I’ll keep you updated.';w.appendChild(r);w.scrollTop=w.scrollHeight},700)}window.sendMsg=sendMsg;
-function quickMsg(m){document.getElementById('msgInput').value=m;sendMsg()}window.quickMsg=quickMsg;
-function sendQuote(){const p=document.getElementById('quotePrice').value||2500;toast('Quotation of Rs. '+Number(p).toLocaleString()+' sent');setTimeout(()=>go('workerJobs'),700)}window.sendQuote=sendQuote;
-function acceptQuote(){toast('Quotation accepted — booking confirmed');setTimeout(()=>go('tracking'),900)}window.acceptQuote=acceptQuote;
-function pay(){toast('Processing secure payment…');setTimeout(()=>go('paymentSuccess'),1100)}window.pay=pay;
-function sendCustomerMsg(){const i=document.getElementById('customerMsgInput'),v=i.value.trim();if(!v)return;const w=document.getElementById('customerMessages'),b=document.createElement('div');b.className='bubble me';b.textContent=v;w.appendChild(b);i.value='';w.scrollTop=w.scrollHeight;setTimeout(()=>{const r=document.createElement('div');r.className='bubble them';r.textContent='Sure, I’ll check that for you.';w.appendChild(r);w.scrollTop=w.scrollHeight},650)}window.sendCustomerMsg=sendCustomerMsg;
-function pickTime(el){el.parentElement.querySelectorAll('.choice').forEach(x=>x.classList.remove('selected'));el.classList.add('selected')}window.pickTime=pickTime;
-function setRating(n){state.rating=n;document.querySelectorAll('#stars button').forEach((b,i)=>{b.textContent=i<n?'★':'☆';b.style.cssText='color:var(--yellow);background:none;border:0;font-size:38px'})}window.setRating=setRating;
-function submitReview(){if(!state.rating){toast('Please select a star rating');return}toast('Thank you! Your review was submitted.');setTimeout(()=>go('customerHome'),900)}window.submitReview=submitReview;
-function toggleAvailability(){const b=document.getElementById('availToggle'),on=b.textContent.includes('ONLINE');b.textContent=on?'● OFFLINE':'● ONLINE';b.className='badge '+(on?'badge-red':'badge-green')}window.toggleAvailability=toggleAvailability;
+  <button class="btn btn-blue" style="margin-top:18px" onclick="goC('c-invoice')">View Invoice &amp; Receipt</button>
+ </div>
+</section>
 
-function toggleTheme(){
- const app=document.getElementById('app');
- const light=app.classList.toggle('light-theme');
- localStorage.setItem('fixmate-theme',light?'light':'dark');
- document.querySelectorAll('.theme-toggle').forEach(t=>{
-   t.classList.toggle('light',light);
-   const k=t.querySelector('.knob'); if(k) k.textContent=light?'☀':'☾';
- });
- toast(light?'Light mode enabled':'Dark mode enabled');
-}
-function loadTheme(){
- const light=localStorage.getItem('fixmate-theme')==='light';
- if(light){
-  document.getElementById('app').classList.add('light-theme');
-  document.querySelectorAll('.theme-toggle').forEach(t=>{t.classList.add('light');const k=t.querySelector('.knob');if(k)k.textContent='☀'});
- }
-}
-function acceptFinalQuote(){toast('Final price confirmed');setTimeout(()=>go('payment'),650)}
-function printInvoice(){
- const paper=document.getElementById('invoicePaper'); if(!paper)return;
- const w=window.open('','_blank','width=700,height=850');
- if(!w){toast('Please allow pop-ups to print the receipt');return}
- w.document.write('<!doctype html><html><head><title>FixMate Receipt</title><style>body{font-family:Arial,sans-serif;padding:35px;color:#111} .invoice-paper{max-width:560px;margin:auto} .invoice-line{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px dashed #ccc} h2{text-align:center}</style></head><body>'+paper.outerHTML+'</body></html>');
- w.document.close();w.focus();setTimeout(()=>w.print(),250);
-}
-window.toggleTheme=toggleTheme;window.loadTheme=loadTheme;window.acceptFinalQuote=acceptFinalQuote;window.printInvoice=printInvoice;
-loadTheme();
+<section id="c-invoice" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-paysuccess')">‹</button><span class="title">Invoice &amp; Receipt</span><button class="iconbtn" onclick="printInvoiceC()">↗</button></div>
+ <div class="scroll pad">
+  <div class="invoice-paper" id="c-invoicePaper">
+   <div style="text-align:center"><div class="logo-mark" style="margin:auto;width:56px;height:56px">✓</div><h2 style="margin:10px 0 2px">FixMate</h2><div style="font-size:12px;color:#66717d">Your Problem. Our Mate.</div></div>
+   <div style="margin-top:16px;font-size:12px;color:#66717d">PAID RECEIPT</div>
+   <div class="invoice-line"><span>Booking ID</span><b id="c-inv-id">FM-2026-00125</b></div>
+   <div class="invoice-line"><span>Customer</span><b>Chinthana Hapuarachchi</b></div>
+   <div class="invoice-line"><span>Worker</span><b>Ramesh Perera</b></div>
+   <div class="invoice-line"><span>Service</span><b id="c-inv-service">Plumbing</b></div>
+   <div id="c-inv-extraLines"></div>
+   <div class="invoice-line" style="font-size:17px;border-bottom:0"><b>Total Paid</b><b id="c-inv-total">Rs. 2,600</b></div>
+   <div style="text-align:center;margin-top:16px;font-size:11px;color:#66717d">Payment recorded successfully · Thank you for using FixMate.</div>
+  </div>
+  <button class="btn btn-blue" style="margin-top:16px" onclick="goC('c-rating')">Rate Worker</button>
+  <button class="btn btn-dark" style="margin-top:9px" onclick="printInvoiceC()">Print / Save Receipt</button>
+ </div>
+</section>
 
-document.addEventListener('keydown',e=>{if(e.key==='Escape')go(lastScreen||'welcome')});
+<section id="c-rating" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-invoice')">‹</button><span class="title">Rate Your Experience</span><span></span></div>
+ <div class="scroll pad" style="text-align:center">
+  <div class="avatar lg" style="margin:20px auto">RP</div>
+  <h2>How was your experience?</h2>
+  <p class="muted">Ramesh Perera · Plumbing</p>
+  <div id="c-stars" style="font-size:36px;margin:16px 0">
+   <button onclick="setRatingC(1)">☆</button><button onclick="setRatingC(2)">☆</button><button onclick="setRatingC(3)">☆</button><button onclick="setRatingC(4)">☆</button><button onclick="setRatingC(5)">☆</button>
+  </div>
+  <textarea id="c-reviewText" class="input" placeholder="Write a review…"></textarea>
+  <button class="btn btn-blue" style="margin-top:14px" onclick="submitReviewC()">Submit Review</button>
+ </div>
+</section>
+
+<section id="c-bookings" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><span class="title">My Bookings</span><span></span></div>
+ <div id="c-bookingsList" class="scroll pad">
+  <div class="card"><span class="muted small">No bookings yet.</span></div>
+ </div>
+ <nav class="bottom-nav">
+  <button class="nav-item" data-nav="c-home" onclick="goC('c-home')"><span class="nav-icon">⌂</span>Home</button>
+  <button class="nav-item active" data-nav="c-bookings" onclick="goC('c-bookings')"><span class="nav-icon">▣</span>Bookings</button>
+  <button class="nav-item" data-nav="c-chat" onclick="goC('c-chat')"><span class="nav-icon">◌</span>Messages</button>
+  <button class="nav-item" data-nav="c-profile" onclick="goC('c-profile')"><span class="nav-icon">●</span>Profile</button>
+ </nav>
+</section>
+
+<section id="c-profile" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><span class="title">My Profile</span>
+  <div class="row"><div class="theme-toggle" id="c-themeToggle" onclick="toggleThemeC()"><span>☾</span><span class="knob"></span></div></div>
+ </div>
+ <div class="scroll pad">
+  <div class="profile-head">
+   <div class="avatar lg">CH</div>
+   <div><div class="profile-name">Chinthana Hapuarachchi</div><div class="muted">Colombo 05</div><span class="badge badge-green">✓ Phone Verified</span></div>
+  </div>
+  <button class="choice" onclick="goC('c-bookings')">▣ <b>My Bookings</b><span>›</span></button>
+  <button class="choice" onclick="goC('c-settings')">⚙ <b>Settings</b><span>›</span></button>
+  <button class="choice" onclick="goC('c-support')">❓ <b>Help &amp; Support</b><span>›</span></button>
+  <button class="btn btn-danger" style="margin-top:6px" onclick="location.reload()">Log Out</button>
+ </div>
+ <nav class="bottom-nav">
+  <button class="nav-item" data-nav="c-home" onclick="goC('c-home')"><span class="nav-icon">⌂</span>Home</button>
+  <button class="nav-item" data-nav="c-bookings" onclick="goC('c-bookings')"><span class="nav-icon">▣</span>Bookings</button>
+  <button class="nav-item" data-nav="c-chat" onclick="goC('c-chat')"><span class="nav-icon">◌</span>Messages</button>
+  <button class="nav-item active" data-nav="c-profile" onclick="goC('c-profile')"><span class="nav-icon">●</span>Profile</button>
+ </nav>
+</section>
+
+<section id="c-notif" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC(cLastMain())">‹</button><span class="title">Notifications</span><button class="linkbtn" onclick="clearNotifC()">Read all</button></div>
+ <div id="c-notifList" class="scroll pad">
+  <div class="card"><span class="muted small">No notifications yet.</span></div>
+ </div>
+</section>
+
+<section id="c-settings" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-profile')">‹</button><span class="title">Settings</span><span></span></div>
+ <div class="scroll pad">
+  <h3>Account</h3>
+  <div class="choice"><span>☾ <b>Dark / Light Mode</b></span><div class="theme-toggle" id="c-themeToggle2" onclick="toggleThemeC()"><span>☾</span><span class="knob"></span></div></div>
+  <button class="choice" onclick="toastC('Notification settings opened')">🔔 <b>Notifications</b><span>›</span></button>
+  <h3>Support</h3>
+  <button class="choice" onclick="goC('c-support')">❓ <b>Help &amp; Support</b><span>›</span></button>
+  <button class="choice" onclick="goC('c-about')">ℹ️ <b>About FixMate</b><span>›</span></button>
+ </div>
+</section>
+
+<section id="c-support" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-profile')">‹</button><span class="title">Help &amp; Support</span><span></span></div>
+ <div class="scroll pad">
+  <div class="search">⌕ <input placeholder="Search help"></div>
+  <h3>How can we help?</h3>
+  <div class="grid2">
+   <button class="card2">📅<br><b>Booking Help</b></button><button class="card2">💳<br><b>Payment Help</b></button>
+   <button class="card2">🧰<br><b>Worker Issues</b></button><button class="card2">👤<br><b>Account Help</b></button>
+  </div>
+  <button class="btn btn-blue" style="margin-top:16px" onclick="toastC('Connecting you with FixMate Support')">Contact FixMate</button>
+ </div>
+</section>
+
+<section id="c-about" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goC('c-settings')">‹</button><span class="title">About FixMate</span><span></span></div>
+ <div class="scroll center" style="padding:30px;text-align:center;flex-direction:column">
+  <div class="logo-mark">🛠️</div>
+  <h1>FixMate</h1><p class="muted">Your Problem. Our Mate.</p>
+  <p class="muted" style="max-width:300px;line-height:1.6">A Sri Lankan service marketplace connecting customers with verified skilled workers for everyday jobs.</p>
+  <span class="badge badge-blue">Prototype v2.0 — Dual Screen</span>
+ </div>
+</section>
+<div id="c-toast" class="toast"></div></div>
+ </div>
+ <div class="phone-wrap">
+  <span class="phone-tag">📱 WORKER APP · <b>Ramesh Perera</b></span>
+  <div class="phone" id="appW"><section id="w-splash" class="screen active splash">
+ <div class="logo-mark">🛠️</div>
+ <div class="brand">FixMate</div>
+ <div class="tagline">Your Problem. Our Mate.</div>
+ <div class="splash-loader"></div>
+</section>
+
+<section id="w-reg" class="screen">
+ <div class="status"><span>9:41</span><div class="status-icons"><span>▮▮▮</span><span>⌁</span><span>▰</span></div></div>
+ <div class="topbar"><span class="title">Worker Registration</span><span></span></div>
+ <form class="scroll pad" onsubmit="event.preventDefault();goW('w-otp')">
+  <div class="hero" style="padding:10px 0 18px">
+   <div class="role-icon" style="width:58px;height:58px;font-size:27px;border-radius:18px">🔨🔧</div>
+  </div>
+  <div class="field"><div class="label">Full Name</div><input class="input" value="Ramesh Perera"></div>
+  <div class="field"><div class="label">Mobile Number</div><input class="input" value="+94 77 123 4567"></div>
+  <div class="field"><div class="label">City / Area</div><select class="input"><option>Colombo 05</option><option>Negombo</option><option>Kandy</option><option>Galle</option></select></div>
+  <div class="field">
+   <div class="label">Primary Service(s)</div>
+   <div class="multiselect">
+    <button type="button" class="input multiselect-btn" onclick="toggleMultiselect()"><span id="w-msLabel">Plumbing</span><span>▾</span></button>
+    <div id="w-msPanel" class="multiselect-panel">
+     <label class="ms-opt"><input type="checkbox" value="Plumbing" checked onchange="updateMsLabel()"> Plumbing</label>
+     <label class="ms-opt"><input type="checkbox" value="Electrical" onchange="updateMsLabel()"> Electrical</label>
+     <label class="ms-opt"><input type="checkbox" value="Carpentry" onchange="updateMsLabel()"> Carpentry</label>
+     <label class="ms-opt"><input type="checkbox" value="Cleaning" onchange="updateMsLabel()"> Cleaning</label>
+     <label class="ms-opt"><input type="checkbox" value="Painting" onchange="updateMsLabel()"> Painting</label>
+     <label class="ms-opt"><input type="checkbox" value="Gardening" onchange="updateMsLabel()"> Gardening</label>
+     <label class="ms-opt"><input type="checkbox" value="AC & Refrigeration" onchange="updateMsLabel()"> AC &amp; Refrigeration</label>
+     <label class="ms-opt"><input type="checkbox" value="Appliance Repair" onchange="updateMsLabel()"> Appliance Repair</label>
+     <label class="ms-opt"><input type="checkbox" value="Packers & Movers" onchange="updateMsLabel()"> Packers &amp; Movers</label>
+     <label class="ms-opt"><input type="checkbox" value="Welding & Metal Work" onchange="updateMsLabel()"> Welding &amp; Metal Work</label>
+    </div>
+   </div>
+  </div>
+  <button class="btn btn-blue">Continue &amp; Verify Mobile</button>
+  <div class="center small muted" style="margin-top:16px">Already have a FixMate account? <button type="button" class="linkbtn" style="padding:4px" onclick="toastW('Demo login: continue registration to explore the app')">Log in</button></div>
+ </form>
+</section>
+
+<section id="w-otp" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW('w-reg')">‹</button><span class="title">Verify Your Number</span><span></span></div>
+ <div class="scroll pad">
+  <h1>Enter your code</h1>
+  <p class="muted">We sent a 6-digit code to your Sri Lankan mobile number.</p>
+  <div class="otp-row">
+   <input class="input otp-box" maxlength="1" value="1" oninput="otpAdvance(this)"><input class="input otp-box" maxlength="1" value="2" oninput="otpAdvance(this)"><input class="input otp-box" maxlength="1" value="3" oninput="otpAdvance(this)"><input class="input otp-box" maxlength="1" value="4" oninput="otpAdvance(this)"><input class="input otp-box" maxlength="1" value="5" oninput="otpAdvance(this)"><input class="input otp-box" maxlength="1" value="6" oninput="otpAdvance(this)">
+  </div>
+  <div class="notice">Prototype OTP: <b>123456</b></div>
+  <button class="btn btn-blue" style="margin-top:18px" onclick="goW('w-lang')">Verify</button>
+ </div>
+</section>
+
+<section id="w-lang" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW('w-otp')">‹</button><span class="title">Choose Your Language</span><span></span></div>
+ <div class="scroll pad">
+  <p class="muted">Select your preferred language.</p>
+  <div style="margin-top:20px">
+   <button class="choice" onclick="selectChoice(this)">🇱🇰 සිංහල <span class="radio"></span></button>
+   <button class="choice" onclick="selectChoice(this)">🇱🇰 தமிழ் <span class="radio"></span></button>
+   <button class="choice selected" onclick="selectChoice(this)">🇬🇧 English <span class="radio"></span></button>
+  </div>
+  <button class="btn btn-blue" onclick="goW('w-home')">Continue</button>
+ </div>
+</section>
+
+<section id="w-home" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮ ⌁ ▰</span></div>
+ <div class="topbar">
+  <div class="row"><div class="avatar sm">RP</div><div><b>Hi, Ramesh</b><div class="muted small">Available for new work</div></div></div>
+  <button class="iconbtn" onclick="goW('w-notif')">🔔<span id="w-nav-dot-bell" class="nav-dot" style="top:2px;right:2px"></span></button>
+ </div>
+ <div class="scroll">
+  <div class="pad"><div class="search">⌕ <input placeholder="Search for work: plumbing, electrical…" oninput="filterWorkerJobs(this.value)"></div></div>
+  <div class="section">
+   <div class="card">
+    <div class="between"><b>Today's Work</b><button class="linkbtn" onclick="goW('w-availability')">Availability</button></div>
+    <div class="stat-grid" style="margin-top:12px">
+     <div class="stat"><b id="w-stat-new">0</b><span>New Work</span></div>
+     <div class="stat"><b id="w-stat-pending">0</b><span>Pending</span></div>
+     <div class="stat"><b id="w-stat-today">0</b><span>Today</span></div>
+    </div>
+   </div>
+  </div>
+  <div class="section">
+   <h3 class="section-title">New Work Near You</h3>
+   <div id="w-newWorkList">
+    <div class="card"><span class="muted small">No new job requests right now. When a customer books a service, it will appear here instantly.</span></div>
+   </div>
+  </div>
+ </div>
+ <nav class="bottom-nav">
+  <button class="nav-item active" data-nav="w-home" onclick="goW('w-home')"><span class="nav-icon">⌂</span>Home</button>
+  <button class="nav-item" data-nav="w-jobs" onclick="goW('w-jobs')"><span class="nav-icon">▣</span>Jobs</button>
+  <button class="nav-item" data-nav="w-chat" onclick="goW('w-chat')"><span class="nav-icon">◌</span>Messages<span id="w-nav-dot-chat" class="nav-dot"></span></button>
+  <button class="nav-item" data-nav="w-profile" onclick="goW('w-profile')"><span class="nav-icon">●</span>Profile</button>
+ </nav>
+</section>
+
+<section id="w-job" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW('w-home')">‹</button><span class="title">New Job Request</span><span></span></div>
+ <div id="w-jobDetail" class="scroll"></div>
+</section>
+
+<section id="w-jobs" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><span class="title">My Jobs</span><button class="iconbtn" onclick="goW('w-notif')">🔔</button></div>
+ <div class="tabs">
+  <button class="tab active">Active</button><button class="tab">History</button>
+ </div>
+ <div id="w-jobsList" class="scroll pad">
+  <div class="card"><span class="muted small">No active jobs yet. Accept a new work request to get started.</span></div>
+ </div>
+ <nav class="bottom-nav">
+  <button class="nav-item" data-nav="w-home" onclick="goW('w-home')"><span class="nav-icon">⌂</span>Home</button>
+  <button class="nav-item active" data-nav="w-jobs" onclick="goW('w-jobs')"><span class="nav-icon">▣</span>Jobs</button>
+  <button class="nav-item" data-nav="w-chat" onclick="goW('w-chat')"><span class="nav-icon">◌</span>Messages</button>
+  <button class="nav-item" data-nav="w-profile" onclick="goW('w-profile')"><span class="nav-icon">●</span>Profile</button>
+ </nav>
+</section>
+
+<section id="w-chat" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar">
+  <button class="back" onclick="goW(wLastMain())">‹</button>
+  <div class="row"><div class="avatar sm">CH</div><div><b>Chinthana H.</b><div class="muted small">Online</div></div></div>
+  <button class="iconbtn" onclick="callCustomer()">☎</button>
+ </div>
+ <div id="w-messages" class="scroll chat" style="padding-bottom:150px">
+  <div class="center muted small">Today</div>
+ </div>
+ <div class="quick">
+  <button onclick="quickMsgW('Yes, I can do it')">Yes, I can do it</button><button onclick="quickMsgW('I\'ll be there soon')">I'll be there soon</button><button onclick="goW('w-quotation')">Send quotation</button>
+ </div>
+ <div class="chat-input"><input id="w-msgInput" placeholder="Type a message…" onkeydown="if(event.key==='Enter')sendMsgW()"><button class="send" onclick="sendMsgW()">➤</button></div>
+</section>
+
+<section id="w-quotation" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW('w-chat')">‹</button><span class="title">Create Quotation</span><span></span></div>
+ <div class="scroll pad">
+  <div class="card"><span class="muted small">Job</span><h2 id="w-quoteJobTitle">—</h2><b id="w-quoteJobRange">Rs. 2,000–3,500</b></div>
+  <div class="field" style="margin-top:15px"><div class="label">Your Price (LKR)</div><input id="w-quotePrice" class="input" type="number" min="0" value="2500"></div>
+  <div class="field"><div class="label">Message to customer</div><textarea id="w-quoteMsg" class="input">I can complete the job today and will bring the required tools.</textarea></div>
+  <button class="btn btn-blue" onclick="sendQuoteW()">Send Quotation</button>
+ </div>
+</section>
+
+<section id="w-arrivedFlow" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW('w-jobs')">‹</button><span class="title">Job in Progress</span><span></span></div>
+ <div id="w-progressBody" class="scroll pad"></div>
+</section>
+
+<section id="w-billing" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW('w-jobs')">‹</button><span class="title">Quotation &amp; Bill</span><span></span></div>
+ <div class="scroll pad">
+  <div class="card">
+   <div class="between"><span class="muted">Service call</span><b id="w-bill-base">Rs. 2,500</b></div>
+  </div>
+  <h3 style="margin-top:16px">Extra Items Used</h3>
+  <div id="w-extraItems"></div>
+  <button class="btn btn-dark btn-small" style="margin-top:4px" onclick="addBillItem()">＋ Add Item</button>
+  <div class="card" style="margin-top:16px">
+   <div class="between"><span class="muted">Subtotal</span><b id="w-bill-subtotal">Rs. 2,500</b></div><hr>
+   <div class="between"><span class="muted">FixMate fee</span><b>Rs. 100</b></div><hr>
+   <div class="between" style="font-size:17px"><b>Total</b><b id="w-bill-total">Rs. 2,600</b></div>
+  </div>
+  <button class="btn btn-blue" style="margin-top:16px" onclick="submitBillW()">Work Completed — Send Final Bill</button>
+ </div>
+</section>
+
+<section id="w-complete" class="screen">
+ <div class="scroll center" style="padding:55px 25px;text-align:center">
+  <div style="font-size:68px;color:#55e889">✓</div>
+  <h1>Job Completed!</h1>
+  <p class="muted">Bill sent to customer — payment pending.</p>
+  <div class="card" style="width:100%;margin:20px 0"><div class="muted small">Your earnings (this job)</div><div class="money" id="w-lastEarn">Rs. 2,500</div></div>
+  <button class="btn btn-blue" onclick="goW('w-earnings')">View Earnings</button>
+ </div>
+</section>
+
+<section id="w-earnings" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW('w-home')">‹</button><span class="title">Earnings</span><span></span></div>
+ <div class="scroll pad">
+  <div class="card"><div class="muted small">This month</div><div class="money" id="w-earnTotal">Rs. 120,500</div><div class="muted" id="w-earnDelta">+12.4% from last month</div></div>
+  <h3 class="section-title" style="margin-top:18px">Transactions</h3>
+  <div id="w-txList"><div class="card">🔧 Plumbing Repair <b style="float:right;color:var(--green)">+Rs. 2,500</b></div></div>
+  <button class="btn btn-blue" style="margin-top:14px" onclick="toastW('Withdrawal request created in prototype')">Withdraw Earnings</button>
+ </div>
+</section>
+
+<section id="w-services" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW('w-profile')">‹</button><span class="title">My Services</span><span></span></div>
+ <div class="scroll pad">
+  <p class="muted">Select every service you are qualified to provide.</p>
+  <div class="grid3" style="margin-top:14px">
+   <button class="service-card active">🔧<br>Plumbing</button><button class="service-card">⚡<br>Electrical</button><button class="service-card">🪚<br>Carpentry</button>
+   <button class="service-card">❄️<br>AC &amp; Cooling</button><button class="service-card">🔌<br>Appliance</button><button class="service-card">📦<br>Moving</button>
+  </div>
+  <button class="btn btn-blue" style="margin-top:16px" onclick="toastW('Services updated successfully')">Save Services</button>
+ </div>
+</section>
+
+<section id="w-profile" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><span class="title">My Profile</span><div class="theme-toggle" id="w-themeToggle" onclick="toggleThemeW()"><span>☾</span><span class="knob"></span></div></div>
+ <div class="scroll pad">
+  <div class="profile-head">
+   <div class="avatar lg">RP</div>
+   <div><div class="profile-name">Ramesh Perera</div><div class="muted">Plumber · Colombo 05</div><span class="badge badge-green">✓ Verified Worker</span></div>
+  </div>
+  <div class="stat-grid" style="margin-top:18px">
+   <div class="stat"><b>4.8 ★</b><span>Rating</span></div><div class="stat"><b id="w-jobcount">126</b><span>Jobs</span></div><div class="stat"><b>100%</b><span>On Time</span></div>
+  </div>
+  <button class="btn btn-dark" style="margin-top:16px" onclick="goW('w-reviews')">View Reviews</button>
+  <button class="btn btn-dark" style="margin-top:9px" onclick="goW('w-services')">My Services</button>
+  <button class="btn btn-dark" style="margin-top:9px" onclick="goW('w-availability')">Availability</button>
+ </div>
+ <nav class="bottom-nav">
+  <button class="nav-item" data-nav="w-home" onclick="goW('w-home')"><span class="nav-icon">⌂</span>Home</button>
+  <button class="nav-item" data-nav="w-jobs" onclick="goW('w-jobs')"><span class="nav-icon">▣</span>Jobs</button>
+  <button class="nav-item" data-nav="w-chat" onclick="goW('w-chat')"><span class="nav-icon">◌</span>Messages</button>
+  <button class="nav-item active" data-nav="w-profile" onclick="goW('w-profile')"><span class="nav-icon">●</span>Profile</button>
+ </nav>
+</section>
+
+<section id="w-reviews" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW('w-profile')">‹</button><span class="title">Reviews</span><span></span></div>
+ <div class="scroll pad">
+  <div class="card" style="text-align:center"><div class="money" id="w-avgRating">4.8 ★</div><div class="muted small" id="w-reviewCount">Based on 32 reviews</div></div>
+  <div id="w-reviewsList">
+   <div class="card" style="margin-top:14px">★★★★★<p>"Very professional and arrived on time."</p><span class="muted small">Past customer · 20 Sep 2026</span></div>
+  </div>
+ </div>
+</section>
+
+<section id="w-availability" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW('w-profile')">‹</button><span class="title">Availability</span><span></span></div>
+ <div class="scroll pad">
+  <div class="card"><div class="between"><span><b>Available for Jobs</b><br><span class="muted small">Customers can request you</span></span><button id="w-availToggle" class="badge badge-green" onclick="toggleAvailabilityW()">● ONLINE</button></div></div>
+  <h3>Working Days</h3>
+  <div class="grid2">
+   <button class="choice selected">Monday</button><button class="choice selected">Tuesday</button><button class="choice selected">Wednesday</button><button class="choice selected">Thursday</button><button class="choice selected">Friday</button><button class="choice selected">Saturday</button>
+  </div>
+  <button class="btn btn-blue" onclick="toastW('Availability saved')">Save Availability</button>
+ </div>
+</section>
+
+<section id="w-notif" class="screen">
+ <div class="status"><span>9:41</span><span>▮▮▮</span></div>
+ <div class="topbar"><button class="back" onclick="goW(wLastMain())">‹</button><span class="title">Notifications</span><button class="linkbtn" onclick="clearNotifW()">Read all</button></div>
+ <div id="w-notifList" class="scroll pad"><div class="card"><span class="muted small">No notifications yet.</span></div></div>
+</section>
+<div id="w-toast" class="toast"></div></div>
+ </div>
+</div>
+<script>
+/* ===== FixMate dual-screen shared logic ===== */
+const FM = {
+  service:'Plumbing', serviceIcon:'🔧', problem:'', when:'now', whenLabel:'Now',
+  addr:'No. 25, Main Street, Colombo 05', activeJob:null,
+  chat:[], notifC:[], notifW:[], reviews:[{stars:5,text:'Very professional and arrived on time.',who:'Past customer',date:'20 Sep 2026'}],
+  avgRating:4.8, reviewCount:32, availabilityOnline:true, rating:0
+};
+let lastMainC = 'c-home';
+let lastMainW = 'w-home';
+let etaTimer = null;
+let trackMapObj = null, trackWorkerMarker = null, trackRoute = null;
+
+const PROBLEM_MAP = {
+  'Plumbing':'Water is leaking from the pipe underneath my kitchen sink.',
+  'Electrical':'A power socket in my living room has stopped working and sparks when used.',
+  'Carpentry':'My bedroom door hinge is broken and the door will not close properly.',
+  'Cleaning':'I need a full deep-cleaning of a 3-bedroom house, including kitchen and bathrooms.',
+  'Painting':'The living room walls have peeling paint and need to be repainted.',
+  'Gardening':'My front garden hedges and lawn need trimming and general maintenance.',
+  'AC & Refrigeration':'My split AC unit is not cooling properly and is making a rattling noise.',
+  'Appliance Repair':'My washing machine is not draining water properly after the wash cycle.',
+  'Packers & Movers':'I am relocating to a new apartment and need help packing and moving furniture.',
+  'Welding & Metal Work':'My front gate hinge is broken and needs to be re-welded.',
+  'Auto & Bike Repair':'My motorcycle is making a strange noise from the engine when starting.',
+  'Pest Control':'I have noticed an ant and cockroach infestation in my kitchen area.',
+  'IT & Computer Support':'My home Wi-Fi router keeps disconnecting and my laptop will not update.',
+  'Home Security':'I want to install two CCTV cameras at my home entrance and back door.'
+};
+const PRICE_BASE = {
+  'Plumbing':2500,'Electrical':3000,'Carpentry':3500,'Cleaning':1800,'Painting':4000,
+  'Gardening':1500,'AC & Refrigeration':4500,'Appliance Repair':3200,'Packers & Movers':6000,
+  'Welding & Metal Work':3800,'Auto & Bike Repair':2800,'Pest Control':2200,
+  'IT & Computer Support':2600,'Home Security':5000
+};
+
+function fmt(n){ return 'Rs. ' + Math.round(n).toLocaleString(); }
+function esc(s){ const d=document.createElement('div'); d.textContent=s==null?'':String(s); return d.innerHTML; }
+
+/* ---------- tiny IndexedDB wrapper (stores every booking/input snapshot) ---------- */
+let fmDB=null;
+function openFMDB(){
+  return new Promise((resolve)=>{
+    if(!('indexedDB' in window)){ resolve(null); return; }
+    const req = indexedDB.open('fixmateDB', 1);
+    req.onupgradeneeded = e=>{ const db=e.target.result; if(!db.objectStoreNames.contains('state')) db.createObjectStore('state'); };
+    req.onsuccess = e=>{ fmDB=e.target.result; resolve(fmDB); };
+    req.onerror = ()=>resolve(null);
+  });
+}
+function idbSave(key,val){
+  try{
+    if(!fmDB) return;
+    const tx = fmDB.transaction('state','readwrite');
+    tx.objectStore('state').put(JSON.parse(JSON.stringify(val)), key);
+  }catch(e){ /* best-effort */ }
+}
+function persist(){ idbSave('FM', FM); }
+
+/* ---------- generic screen nav ---------- */
+function goC(id){
+  const app=document.getElementById('appC');
+  const target=document.getElementById(id); if(!target) return;
+  app.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  target.classList.add('active');
+  const sc=target.querySelector('.scroll'); if(sc) sc.scrollTop=0;
+  if(['c-home','c-bookings','c-chat','c-profile'].includes(id)) lastMainC=id;
+  app.querySelectorAll('.nav-item[data-nav]').forEach(b=>b.classList.toggle('active', b.dataset.nav===id));
+  if(id==='c-notif'){ renderNotifList('c'); document.getElementById('c-nav-dot-bell').classList.remove('show'); }
+  if(id==='c-chat'){ document.getElementById('c-nav-dot-chat').classList.remove('show'); }
+  if(id==='c-bookings') renderBookingsList();
+}
+function goW(id){
+  const app=document.getElementById('appW');
+  const target=document.getElementById(id); if(!target) return;
+  app.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  target.classList.add('active');
+  const sc=target.querySelector('.scroll'); if(sc) sc.scrollTop=0;
+  if(['w-home','w-jobs','w-chat','w-profile'].includes(id)) lastMainW=id;
+  app.querySelectorAll('.nav-item[data-nav]').forEach(b=>b.classList.toggle('active', b.dataset.nav===id));
+  if(id==='w-notif'){ renderNotifList('w'); document.getElementById('w-nav-dot-bell').classList.remove('show'); }
+  if(id==='w-chat'){ document.getElementById('w-nav-dot-chat').classList.remove('show'); }
+  if(id==='w-jobs') renderWorkerJobsList();
+}
+function cLastMain(){ return lastMainC; }
+function wLastMain(){ return lastMainW; }
+
+/* ---------- toasts ---------- */
+function toastC(msg){ const el=document.getElementById('c-toast'); el.textContent=msg; el.classList.add('show'); clearTimeout(el._t); el._t=setTimeout(()=>el.classList.remove('show'),2600); }
+function toastW(msg){ const el=document.getElementById('w-toast'); el.textContent=msg; el.classList.add('show'); clearTimeout(el._t); el._t=setTimeout(()=>el.classList.remove('show'),2600); }
+
+/* ---------- shared UI helpers ---------- */
+function selectChoice(el){ const p=el.parentElement; p.querySelectorAll('.choice').forEach(x=>x.classList.remove('selected')); el.classList.add('selected'); }
+function otpAdvance(el){ if(el.value.length>=1){ const n=el.nextElementSibling; if(n && n.classList.contains('otp-box')) n.focus(); } }
+
+/* ---------- CUSTOMER: services / booking creation ---------- */
+function filterServicesC(v){
+  const q=v.toLowerCase();
+  document.querySelectorAll('#c-serviceGrid .service-card').forEach(c=>{
+    c.style.display = (!q || (c.dataset.name||'').includes(q)) ? '' : 'none';
+  });
+}
+function chooseServiceC(name,icon){
+  FM.service=name; FM.serviceIcon=icon||'🔧';
+  const badge=document.getElementById('c-selectedServiceBadge'); if(badge) badge.textContent=name;
+  const ta=document.getElementById('c-problemText'); if(ta) ta.value = PROBLEM_MAP[name] || ('I need help with a ' + name.toLowerCase() + ' issue at my home.');
+  FM.problem = ta ? ta.value : '';
+  persist();
+  goC('c-problem');
+}
+function uploadDemoC(){ document.getElementById('c-uploadStatus').textContent='✓ 3 demo photos attached'; toastC('3 photos attached'); }
+function pickWhen(el,label){
+  document.querySelectorAll('#c-datetime .choice').forEach(x=>x.classList.remove('selected'));
+  el.classList.add('selected');
+  FM.when = label==='Now' ? 'now' : 'scheduled';
+  const picker=document.getElementById('c-whenPicker');
+  if(label==='Now'){ picker.classList.add('hidden'); FM.whenLabel='Now'; }
+  else{ picker.classList.remove('hidden'); }
+}
+function confirmDateTime(){
+  if(FM.when==='scheduled'){
+    const d=document.getElementById('c-pickDate').value;
+    const t=document.getElementById('c-pickTime').value || '15:00';
+    FM.whenLabel = d ? (d + ' · ' + t) : ('Today · ' + t);
+  } else {
+    FM.whenLabel='Now (ASAP)';
+  }
+  FM.addr = document.getElementById('c-addr') ? document.getElementById('c-addr').value : FM.addr;
+  FM.problem = document.getElementById('c-problemText') ? document.getElementById('c-problemText').value : FM.problem;
+  persist();
+  renderReview();
+  goC('c-review');
+}
+function renderReview(){
+  document.getElementById('c-rev-service').textContent = FM.service;
+  document.getElementById('c-rev-problem').textContent = FM.problem || '—';
+  document.getElementById('c-rev-loc').textContent = FM.addr;
+  document.getElementById('c-rev-time').textContent = FM.whenLabel;
+  const base = PRICE_BASE[FM.service] || 2500;
+  document.getElementById('c-rev-range').textContent = fmt(base*0.85) + ' – ' + fmt(base*1.35);
+}
+
+function findWorkers(){
+  goC('c-searching');
+  setTimeout(()=>{ renderWorkersList(); goC('c-workers'); }, 1400);
+}
+function renderWorkersList(){
+  const base = PRICE_BASE[FM.service] || 2500;
+  const list = [
+    {name:'Ramesh Perera', avatar:'RP', rating:4.8, exp:'6 yrs', jobs:126, mult:1.00, real:true},
+    {name:'Kamal Silva', avatar:'KS', rating:4.7, exp:'4 yrs', jobs:88, mult:0.86, real:false},
+    {name:'Nadeesha Fernando', avatar:'NF', rating:4.9, exp:'8 yrs', jobs:214, mult:1.12, real:false},
+    {name:'Sunil Jayawardena', avatar:'SJ', rating:4.6, exp:'3 yrs', jobs:57, mult:0.94, real:false}
+  ];
+  const wrap=document.getElementById('c-workersList');
+  wrap.innerHTML='';
+  list.forEach((w,i)=>{
+    const price = Math.round((base*w.mult)/50)*50;
+    const card=document.createElement('div');
+    card.className='card'; card.style.marginTop = i? '11px':'0';
+    card.innerHTML =
+      '<div class="profile-head"><div class="avatar">'+esc(w.avatar)+'</div>'+
+      '<div style="flex:1"><b>'+esc(w.name)+'</b><br>'+
+      '<span class="muted small">'+esc(FM.service)+' · '+ (1.2+i*0.6).toFixed(1) +' km away · '+esc(w.exp)+'</span><br>'+
+      '<span style="color:var(--yellow)">★ '+w.rating+'</span></div>'+
+      (w.real?'<span class="badge badge-green">VERIFIED</span>':'<span class="badge badge-blue">AVAILABLE</span>')+
+      '</div>'+
+      '<div class="between" style="margin-top:9px"><span class="muted small">Quotation</span><b class="price">'+fmt(price)+'</b></div>'+
+      '<div class="actions">'+
+      '<button class="btn btn-dark btn-small" onclick="viewWorkerProfile(\''+w.name.replace(/'/g,"\\'")+'\',\''+w.avatar+'\',\''+w.exp+'\','+w.jobs+','+w.rating+')">View Profile</button>'+
+      '<button class="btn btn-blue btn-small" onclick="'+(w.real? 'requestRamesh('+price+')' : 'requestDecorativeWorker(\''+w.name.replace(/'/g,"\\'")+'\','+price+')')+'">Request Quote</button>'+
+      '</div>';
+    wrap.appendChild(card);
+  });
+}
+function viewWorkerProfile(name,avatar,exp,jobs,rating){
+  document.getElementById('c-wp-avatar').textContent=avatar;
+  document.getElementById('c-wp-name').textContent=name;
+  document.getElementById('c-wp-role').textContent='Professional '+FM.service;
+  document.getElementById('c-wp-exp').textContent=exp;
+  document.getElementById('c-wp-jobs').textContent=jobs;
+  document.getElementById('c-wp-rating').textContent=rating+'★';
+  goC('c-workerprofile');
+}
+function requestDecorativeWorker(name,price){
+  toastC('Quote requested from '+name+' — you will be notified when they respond');
+}
+function acceptQuoteFromWorker(){ /* placeholder redefined below once job flow declared */ }
+
+/* ---------- Booking lifecycle (Ramesh <-> Chinthana) ---------- */
+function requestRamesh(price){
+  const id = 'FM-2026-' + Math.floor(10000+Math.random()*89000);
+  FM.activeJob = {
+    id, service:FM.service, icon:FM.serviceIcon, problem:FM.problem, addr:FM.addr, whenLabel:FM.whenLabel,
+    price:price, status:'requested', extras:[], total:0, createdAt:Date.now()
+  };
+  persist();
+  document.getElementById('c-quotesList').innerHTML =
+    '<div class="card"><div class="between"><span class="muted">Status</span><span class="badge badge-yellow">WAITING</span></div>'+
+    '<p class="muted small" style="margin-top:8px">Request sent to Ramesh Perera. Suggested price '+fmt(price)+'. You will be notified the moment he responds.</p></div>';
+  goC('c-quotes');
+  addNewWorkRequest(FM.activeJob);
+}
+function addNewWorkRequest(job){
+  document.getElementById('w-stat-new').textContent = String(1);
+  const list = document.getElementById('w-newWorkList');
+  list.innerHTML =
+    '<div class="job-card"><div class="job-photo">'+job.icon+'</div><div class="job-body">'+
+    '<div class="between"><div class="job-title">'+esc(job.service)+' — '+esc(job.problem.slice(0,38))+(job.problem.length>38?'…':'')+'</div><span class="badge badge-red">NEW</span></div>'+
+    '<div class="job-meta">'+esc(job.service)+' · Chinthana H. · '+esc(job.addr)+'</div>'+
+    '<div class="between" style="margin-top:9px"><span class="price">'+fmt(job.price)+'</span><span class="muted small">'+esc(job.whenLabel)+'</span></div>'+
+    '<div class="actions"><button class="btn btn-danger btn-small" onclick="declineJobW()">Decline</button><button class="btn btn-blue btn-small" onclick="acceptJobW()">Accept</button></div>'+
+    '</div></div>';
+  notifyWorker('New job request: '+job.service+' near you — '+fmt(job.price), '🔔');
+  const dot=document.getElementById('w-nav-dot-bell'); if(dot) dot.classList.add('show');
+}
+function declineJobW(){
+  toastW('Job declined');
+  document.getElementById('w-newWorkList').innerHTML='<div class="card"><span class="muted small">No new job requests right now.</span></div>';
+  document.getElementById('w-stat-new').textContent='0';
+  notifyCustomer('The worker declined your request. Try requesting another worker from Workers Near You.', '⚠️');
+  FM.activeJob=null; persist();
+}
+function acceptJobW(){
+  if(!FM.activeJob) return;
+  FM.activeJob.status='accepted';
+  document.getElementById('w-newWorkList').innerHTML='<div class="card"><span class="muted small">No new job requests right now.</span></div>';
+  document.getElementById('w-stat-new').textContent='0';
+  document.getElementById('w-stat-pending').textContent='1';
+  toastW('Job accepted successfully');
+  notifyCustomer('Ramesh accepted your request — quotation '+fmt(FM.activeJob.price), '✓');
+  document.getElementById('c-quotesList').innerHTML =
+    '<p class="muted">Choose a quotation that works for you.</p>'+
+    '<div class="card"><div class="profile-head"><div class="avatar">RP</div><div><b>Ramesh Perera</b><br><span style="color:var(--yellow)">★ 4.8</span></div></div>'+
+    '<div class="divider"></div><div class="between"><span class="muted">Quotation</span><span class="money">'+fmt(FM.activeJob.price)+'</span></div>'+
+    '<div class="job-meta">Can arrive '+esc(FM.activeJob.whenLabel)+'.</div>'+
+    '<div class="actions"><button class="btn btn-dark btn-small" onclick="goC(\'c-chat\')">Message</button><button class="btn btn-blue btn-small" onclick="acceptQuoteFromWorker()">Accept</button></div></div>';
+  renderWorkerJobsList();
+  persist();
+  goW('w-jobs');
+}
+acceptQuoteFromWorker = function(){
+  if(!FM.activeJob) return;
+  FM.activeJob.status='confirmed';
+  document.getElementById('w-stat-pending').textContent='0';
+  document.getElementById('w-stat-today').textContent='1';
+  toastC('Quotation accepted — booking confirmed');
+  notifyWorker('Customer accepted your quotation — job confirmed!', '✓');
+  renderWorkerJobsList();
+  persist();
+  goC('c-tracking');
+  startEtaSim();
+};
+function renderBookingsList(){
+  const wrap=document.getElementById('c-bookingsList');
+  if(!FM.activeJob){ wrap.innerHTML='<div class="card"><span class="muted small">No bookings yet.</span></div>'; return; }
+  const j=FM.activeJob;
+  const label = {requested:'REQUESTED',accepted:'PENDING',confirmed:'CONFIRMED',on_the_way:'CONFIRMED',arrived:'WORKER ARRIVED',in_progress:'IN PROGRESS',billed:'BILL READY',paid:'PAID'}[j.status]||'ACTIVE';
+  wrap.innerHTML='<div class="card"><span class="badge badge-blue">'+label+'</span><h3>'+esc(j.service)+' Repair</h3>'+
+    '<p class="muted small">Ramesh Perera · '+esc(j.addr)+' · '+esc(j.whenLabel)+'</p>'+
+    '<div class="between"><b>'+fmt(j.price)+'</b><button class="btn btn-dark btn-small" style="width:auto" onclick="goC(\'c-tracking\')">Track</button></div></div>';
+}
+
+/* ---------- WORKER: jobs list rendering & progress ---------- */
+function renderWorkerJobsList(){
+  const wrap=document.getElementById('w-jobsList');
+  if(!FM.activeJob || FM.activeJob.status==='requested'){ wrap.innerHTML='<div class="card"><span class="muted small">No active jobs yet. Accept a new work request to get started.</span></div>'; return; }
+  const j=FM.activeJob;
+  let actionsHtml='';
+  if(j.status==='accepted'){
+    actionsHtml='<button class="btn btn-dark btn-small" onclick="goW(\'w-chat\')">Message</button><button class="btn btn-blue btn-small" onclick="goW(\'w-quotation\');prefillQuote()">Send Quotation</button>';
+  } else if(j.status==='confirmed' || j.status==='on_the_way'){
+    actionsHtml='<button class="btn btn-dark btn-small" onclick="goW(\'w-chat\')">Message</button><button class="btn btn-blue btn-small" onclick="arrivedW()">Arrived</button>';
+  } else if(j.status==='arrived'){
+    actionsHtml='<button class="btn btn-dark btn-small" onclick="goW(\'w-chat\')">Message</button><button class="btn btn-green btn-small" onclick="startWorkW()">Start Work</button>';
+  } else if(j.status==='in_progress'){
+    actionsHtml='<button class="btn btn-dark btn-small" onclick="goW(\'w-chat\')">Message</button><button class="btn btn-green btn-small" onclick="goW(\'w-billing\');prepBilling()">Work Completed</button>';
+  } else if(j.status==='billed'){
+    actionsHtml='<span class="status-pill">Awaiting customer payment</span>';
+  } else if(j.status==='paid'){
+    actionsHtml='<span class="status-pill">✓ Paid — job closed</span>';
+  }
+  const badgeMap={accepted:'badge-green',confirmed:'badge-blue','on_the_way':'badge-blue',arrived:'badge-yellow',in_progress:'badge-blue',billed:'badge-yellow',paid:'badge-green'};
+  const labelMap={accepted:'ACCEPTED',confirmed:'ON THE WAY','on_the_way':'ON THE WAY',arrived:'ARRIVED',in_progress:'IN PROGRESS',billed:'BILL SENT',paid:'PAID'};
+  wrap.innerHTML='<div class="job-card"><div class="job-body">'+
+    '<span class="badge '+(badgeMap[j.status]||'badge-blue')+'">'+(labelMap[j.status]||j.status.toUpperCase())+'</span>'+
+    '<div class="job-title" style="margin-top:8px">'+esc(j.service)+' — '+esc(j.problem.slice(0,42))+(j.problem.length>42?'…':'')+'</div>'+
+    '<div class="job-meta">Chinthana H. · '+esc(j.addr)+' · '+esc(j.whenLabel)+'</div>'+
+    '<div class="actions">'+actionsHtml+'</div></div></div>';
+}
+function prefillQuote(){
+  if(!FM.activeJob) return;
+  document.getElementById('w-quoteJobTitle').textContent = FM.activeJob.service+' — '+FM.activeJob.problem;
+  const base=PRICE_BASE[FM.activeJob.service]||2500;
+  document.getElementById('w-quoteJobRange').textContent = fmt(base*0.85)+'–'+fmt(base*1.35);
+  document.getElementById('w-quotePrice').value = FM.activeJob.price;
+}
+function sendQuoteW(){
+  const p = Number(document.getElementById('w-quotePrice').value)||2500;
+  const msg = document.getElementById('w-quoteMsg').value.trim();
+  if(!FM.activeJob) return;
+  FM.activeJob.price = Math.max(0,p);
+  pushChatMsg('worker', 'Sent a quotation of '+fmt(FM.activeJob.price)+(msg?(': '+msg):''));
+  toastW('Quotation of '+fmt(FM.activeJob.price)+' sent');
+  notifyCustomer('New quotation received: '+fmt(FM.activeJob.price), '📄');
+  persist();
+  setTimeout(()=>goW('w-jobs'),500);
+}
+function arrivedW(){
+  if(!FM.activeJob) return;
+  stopEtaSim();
+  FM.activeJob.status='arrived';
+  document.getElementById('c-etaText').textContent='Arrived';
+  document.getElementById('c-etaFill').style.width='100%';
+  document.getElementById('c-viewQuoteBtn').removeAttribute('disabled');
+  notifyCustomer('Ramesh has arrived at your location!', '📍');
+  toastW('Marked as arrived — customer notified');
+  renderWorkerJobsList();
+  persist();
+}
+function startWorkW(){
+  if(!FM.activeJob) return;
+  FM.activeJob.status='in_progress';
+  notifyCustomer('Ramesh has started the work.', '🔧');
+  toastW('Work started — customer notified');
+  renderWorkerJobsList();
+  persist();
+}
+function prepBilling(){
+  if(!FM.activeJob) return;
+  document.getElementById('w-bill-base').textContent = fmt(FM.activeJob.price);
+  document.getElementById('w-extraItems').innerHTML='';
+  FM.activeJob.extras=[];
+  recalcBill();
+}
+function addBillItem(){
+  const wrap=document.getElementById('w-extraItems');
+  const row=document.createElement('div');
+  row.className='bill-row';
+  row.innerHTML='<input class="input" placeholder="Item / material used" oninput="recalcBill()">'+
+    '<input class="input price" type="number" min="0" placeholder="Rs." oninput="recalcBill()">'+
+    '<button class="iconbtn" onclick="this.parentElement.remove();recalcBill()">✕</button>';
+  wrap.appendChild(row);
+}
+function recalcBill(){
+  if(!FM.activeJob) return;
+  let extraTotal=0; const extras=[];
+  document.querySelectorAll('#w-extraItems .bill-row').forEach(r=>{
+    const inputs=r.querySelectorAll('input');
+    const name=inputs[0].value.trim(); const price=Number(inputs[1].value)||0;
+    if(name || price){ extras.push({name:name||'Extra item', price}); extraTotal+=price; }
+  });
+  FM.activeJob.extras=extras;
+  const subtotal=FM.activeJob.price+extraTotal;
+  const fee=100;
+  const total=subtotal+fee;
+  FM.activeJob.total=total;
+  document.getElementById('w-bill-subtotal').textContent=fmt(subtotal);
+  document.getElementById('w-bill-total').textContent=fmt(total);
+}
+function submitBillW(){
+  if(!FM.activeJob) return;
+  recalcBill();
+  FM.activeJob.status='billed';
+  toastW('Final bill sent to customer');
+  notifyCustomer('Job completed! Final bill ready: '+fmt(FM.activeJob.total), '🧾');
+  document.getElementById('w-lastEarn').textContent = fmt(FM.activeJob.total-100);
+  renderWorkerJobsList();
+  renderCustomerLiveCard();
+  persist();
+  goW('w-complete');
+}
+function renderCustomerLiveCard(){
+  const j=FM.activeJob;
+  const live=document.getElementById('c-liveBookingCard');
+  const none=document.getElementById('c-noBookingCard');
+  if(!j || j.status==='requested'){ live.classList.add('hidden'); none.classList.remove('hidden'); return; }
+  live.classList.remove('hidden'); none.classList.add('hidden');
+  const map={accepted:'Quotation received',confirmed:'Ramesh is on the way','on_the_way':'Ramesh is on the way',arrived:'Ramesh has arrived',in_progress:'Work in progress',billed:'Final bill ready — '+fmt(j.total),paid:'Job complete — paid'};
+  document.getElementById('c-liveBookingTitle').textContent = j.status==='billed' ? 'Final Bill Ready' : 'Ramesh · '+j.service;
+  document.getElementById('c-liveBookingSub').textContent = map[j.status] || 'In progress';
+}
+
+/* ---------- Payment / invoice ---------- */
+function renderBillLines(){
+  const j=FM.activeJob; if(!j) return;
+  let html = '<div class="invoice-line"><span>Labour & service</span><b>'+fmt(j.price)+'</b></div>';
+  (j.extras||[]).forEach(e=>{ html+='<div class="invoice-line"><span>'+esc(e.name)+'</span><b>'+fmt(e.price)+'</b></div>'; });
+  html += '<div class="invoice-line"><span>FixMate service fee</span><b>Rs. 100</b></div>';
+  html += '<div class="invoice-line" style="font-size:17px;border-bottom:0"><b>Total</b><b>'+fmt(j.total||(j.price+100))+'</b></div>';
+  document.getElementById('c-billLines').innerHTML = html;
+}
+function acceptFinalQuote(){
+  renderBillLines();
+  toastC('Final price confirmed');
+  setTimeout(()=>{
+    document.getElementById('c-payAmount').textContent = fmt(FM.activeJob.total || (FM.activeJob.price+100));
+    document.getElementById('c-paySub').textContent='Service '+fmt(FM.activeJob.price)+' + FixMate fee Rs. 100'+((FM.activeJob.extras||[]).length?(' + '+FM.activeJob.extras.length+' extra item(s)'):'');
+    goC('c-payment');
+  }, 500);
+}
+function payC(){
+  toastC('Processing secure payment…');
+  setTimeout(()=>{
+    FM.activeJob.status='paid';
+    document.getElementById('c-ps-amount').textContent = fmt(FM.activeJob.total || (FM.activeJob.price+100));
+    document.getElementById('c-ps-id').textContent = FM.activeJob.id;
+    notifyWorker('Payment received — '+fmt(FM.activeJob.total||FM.activeJob.price), '💳');
+    document.getElementById('w-jobcount').textContent = String(Number(document.getElementById('w-jobcount').textContent||126)+1);
+    const earnTotalEl=document.getElementById('w-earnTotal');
+    const cur = Number((earnTotalEl.textContent||'').replace(/[^0-9]/g,''))||120500;
+    earnTotalEl.textContent = fmt(cur + (FM.activeJob.total-100));
+    document.getElementById('w-txList').insertAdjacentHTML('afterbegin','<div class="card">'+FM.activeJob.icon+' '+esc(FM.activeJob.service)+' <b style="float:right;color:var(--green)">+'+fmt(FM.activeJob.total-100)+'</b></div>');
+    renderWorkerJobsList();
+    renderCustomerLiveCard();
+    persist();
+    goC('c-paysuccess');
+  }, 1100);
+}
+function renderInvoice(){
+  const j=FM.activeJob; if(!j) return;
+  document.getElementById('c-inv-id').textContent=j.id;
+  document.getElementById('c-inv-service').textContent=j.service;
+  let extraHtml='<div class="invoice-line"><span>Service amount</span><b>'+fmt(j.price)+'</b></div>';
+  (j.extras||[]).forEach(e=>{ extraHtml+='<div class="invoice-line"><span>'+esc(e.name)+'</span><b>'+fmt(e.price)+'</b></div>'; });
+  extraHtml+='<div class="invoice-line"><span>FixMate fee</span><b>Rs. 100</b></div>';
+  document.getElementById('c-inv-extraLines').innerHTML=extraHtml;
+  document.getElementById('c-inv-total').textContent=fmt(j.total||(j.price+100));
+}
+function printInvoiceC(){
+  renderInvoice();
+  const paper=document.getElementById('c-invoicePaper'); if(!paper) return;
+  const w=window.open('','_blank','width=700,height=850');
+  if(!w){ toastC('Please allow pop-ups to print the receipt'); return; }
+  w.document.write('<!doctype html><html><head><title>FixMate Receipt</title><style>body{font-family:Arial,sans-serif;padding:35px;color:#111}.invoice-paper{max-width:560px;margin:auto}.invoice-line{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px dashed #ccc}h2{text-align:center}</style></head><body>'+paper.outerHTML+'</body></html>');
+  w.document.close(); w.focus(); setTimeout(()=>w.print(),250);
+}
+
+/* ---------- rating / reviews ---------- */
+function setRatingC(n){
+  FM.rating=n;
+  document.querySelectorAll('#c-stars button').forEach((b,i)=>{ b.textContent = i<n?'★':'☆'; b.style.cssText='color:var(--yellow);background:none;border:0;font-size:36px'; });
+}
+function submitReviewC(){
+  if(!FM.rating){ toastC('Please select a star rating'); return; }
+  const text = document.getElementById('c-reviewText').value.trim() || 'Great service, highly recommended.';
+  FM.reviews.unshift({stars:FM.rating, text, who:'Chinthana H.', date:'27 Sep 2026'});
+  FM.reviewCount++;
+  const sum = FM.reviews.reduce((a,r)=>a+r.stars,0);
+  FM.avgRating = Math.round((sum/FM.reviews.length)*10)/10;
+  document.getElementById('w-avgRating').textContent = FM.avgRating+' ★';
+  document.getElementById('w-reviewCount').textContent = 'Based on '+FM.reviewCount+' reviews';
+  document.getElementById('w-reviewsList').insertAdjacentHTML('afterbegin',
+    '<div class="card" style="margin-top:14px">'+'★'.repeat(FM.rating)+'☆'.repeat(5-FM.rating)+'<p>'+esc(text)+'</p><span class="muted small">Chinthana H. · 27 Sep 2026</span></div>');
+  toastC('Thank you! Your review was submitted.');
+  notifyWorker('New '+FM.rating+'-star review from Chinthana H.!', '⭐');
+  FM.activeJob=null; persist();
+  setTimeout(()=>{ goC('c-home'); document.getElementById('c-noBookingCard').classList.remove('hidden'); document.getElementById('c-liveBookingCard').classList.add('hidden'); }, 900);
+}
+
+/* ---------- chat ---------- */
+function pushChatMsg(from,text){
+  FM.chat.push({from,text,t:Date.now()});
+  const cWrap=document.getElementById('c-messages'), wWrap=document.getElementById('w-messages');
+  const cBub=document.createElement('div'); cBub.className='bubble '+(from==='customer'?'me':'them'); cBub.textContent=text; cWrap.appendChild(cBub); cWrap.scrollTop=cWrap.scrollHeight;
+  const wBub=document.createElement('div'); wBub.className='bubble '+(from==='worker'?'me':'them'); wBub.textContent=text; wWrap.appendChild(wBub); wWrap.scrollTop=wWrap.scrollHeight;
+  if(from==='customer'){
+    const activeW=document.querySelector('#appW .screen.active');
+    if(!activeW || activeW.id!=='w-chat'){ notifyWorker('New message: '+text, '💬'); document.getElementById('w-nav-dot-chat').classList.add('show'); }
+  } else {
+    const activeC=document.querySelector('#appC .screen.active');
+    if(!activeC || activeC.id!=='c-chat'){ notifyCustomer('New message: '+text, '💬'); document.getElementById('c-nav-dot-chat').classList.add('show'); }
+  }
+  persist();
+}
+function sendMsgC(){
+  const i=document.getElementById('c-msgInput'); const v=i.value.trim(); if(!v) return;
+  pushChatMsg('customer', v); i.value='';
+}
+function sendMsgW(){
+  const i=document.getElementById('w-msgInput'); const v=i.value.trim(); if(!v) return;
+  pushChatMsg('worker', v); i.value='';
+}
+function quickMsgW(m){ document.getElementById('w-msgInput').value=m; sendMsgW(); }
+function callWorker(){ toastC('Calling Ramesh…'); notifyWorker('Incoming call from Chinthana H.', '☎'); }
+function callCustomer(){ toastW('Calling Chinthana…'); notifyCustomer('Incoming call from Ramesh Perera', '☎'); }
+
+/* ---------- notifications ---------- */
+function notifyCustomer(text,icon){
+  FM.notifC.unshift({text,icon:icon||'🔔',t:'Just now'});
+  const dot=document.getElementById('c-nav-dot-bell'); if(dot) dot.classList.add('show');
+  const activeC=document.querySelector('#appC .screen.active');
+  if(activeC && activeC.id==='c-notif') renderNotifList('c'); else toastC(text);
+  renderCustomerLiveCard();
+  persist();
+}
+function notifyWorker(text,icon){
+  FM.notifW.unshift({text,icon:icon||'🔔',t:'Just now'});
+  const dot=document.getElementById('w-nav-dot-bell'); if(dot) dot.classList.add('show');
+  const activeW=document.querySelector('#appW .screen.active');
+  if(activeW && activeW.id==='w-notif') renderNotifList('w'); else toastW(text);
+  persist();
+}
+function renderNotifList(role){
+  const arr = role==='c'?FM.notifC:FM.notifW;
+  const el = document.getElementById(role+'-notifList');
+  if(!arr.length){ el.innerHTML='<div class="card"><span class="muted small">No notifications yet.</span></div>'; return; }
+  el.innerHTML = arr.map(n=>'<div class="card" style="margin-bottom:10px">'+n.icon+' <b>'+esc(n.text)+'</b><br><span class="muted small">'+n.t+'</span></div>').join('');
+}
+function clearNotifC(){ document.getElementById('c-nav-dot-bell').classList.remove('show'); toastC('All notifications marked as read'); }
+function clearNotifW(){ document.getElementById('w-nav-dot-bell').classList.remove('show'); toastW('All notifications marked as read'); }
+
+/* ---------- availability / theme / multiselect ---------- */
+function toggleAvailabilityW(){
+  const b=document.getElementById('w-availToggle'); const on=b.textContent.includes('ONLINE');
+  b.textContent = on?'● OFFLINE':'● ONLINE'; b.className='badge '+(on?'badge-red':'badge-green');
+  FM.availabilityOnline=!on; persist();
+}
+function toggleThemeC(){
+  const app=document.getElementById('appC'); const light=app.classList.toggle('light-theme');
+  localStorage.setItem('fixmate-theme-c', light?'light':'dark');
+  document.querySelectorAll('#appC .theme-toggle').forEach(t=>{ t.classList.toggle('light',light); const k=t.querySelector('.knob'); });
+  document.querySelectorAll('#appC .theme-toggle span:first-child').forEach(s=>s.textContent=light?'☀':'☾');
+  toastC(light?'Light mode enabled':'Dark mode enabled');
+}
+function toggleThemeW(){
+  const app=document.getElementById('appW'); const light=app.classList.toggle('light-theme');
+  localStorage.setItem('fixmate-theme-w', light?'light':'dark');
+  document.querySelectorAll('#appW .theme-toggle').forEach(t=>{ t.classList.toggle('light',light); });
+  document.querySelectorAll('#appW .theme-toggle span:first-child').forEach(s=>s.textContent=light?'☀':'☾');
+  toastW(light?'Light mode enabled':'Dark mode enabled');
+}
+function loadThemes(){
+  if(localStorage.getItem('fixmate-theme-c')==='light'){ document.getElementById('appC').classList.add('light-theme'); document.querySelectorAll('#appC .theme-toggle').forEach(t=>{t.classList.add('light'); t.querySelector('span').textContent='☀';}); }
+  if(localStorage.getItem('fixmate-theme-w')==='light'){ document.getElementById('appW').classList.add('light-theme'); document.querySelectorAll('#appW .theme-toggle').forEach(t=>{t.classList.add('light'); t.querySelector('span').textContent='☀';}); }
+}
+function toggleMultiselect(){ document.getElementById('w-msPanel').classList.toggle('open'); }
+function updateMsLabel(){
+  const boxes=document.querySelectorAll('#w-msPanel input:checked');
+  const vals=[...boxes].map(b=>b.value);
+  document.getElementById('w-msLabel').textContent = vals.length ? vals.join(', ') : 'Select services';
+}
+function filterWorkerJobs(v){ /* search box on worker home — demo no-op beyond focus, list is event-driven */ }
+
+/* ---------- tracking map (Leaflet, OpenStreetMap tiles) ---------- */
+function startEtaSim(){
+  const homeLatLng=[6.9147,79.8636], workerStart=[6.9280,79.8480];
+  if(window.L && document.getElementById('c-trackMap')){
+    if(trackMapObj){ trackMapObj.remove(); trackMapObj=null; }
+    trackMapObj = L.map('c-trackMap',{zoomControl:false,attributionControl:false}).setView(homeLatLng,14);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18}).addTo(trackMapObj);
+    const homeIcon=L.divIcon({className:'',html:'<div class="dest-pin"></div>',iconSize:[26,26],iconAnchor:[13,26]});
+    L.marker(homeLatLng,{icon:homeIcon}).addTo(trackMapObj);
+    const workerIcon=L.divIcon({className:'',html:'<div class="driver-pin">🔧</div>',iconSize:[34,34],iconAnchor:[17,17]});
+    trackWorkerMarker = L.marker(workerStart,{icon:workerIcon}).addTo(trackMapObj);
+    trackRoute = L.polyline([workerStart,homeLatLng],{color:'#2296ff',weight:3,dashArray:'6,8'}).addTo(trackMapObj);
+    trackMapObj.fitBounds([workerStart,homeLatLng],{padding:[40,40]});
+  }
+  let pct=15, mins=12;
+  document.getElementById('c-etaFill').style.width=pct+'%';
+  document.getElementById('c-etaText').textContent='Arriving in approximately '+mins+' min';
+  clearInterval(etaTimer);
+  etaTimer=setInterval(()=>{
+    if(!FM.activeJob || FM.activeJob.status==='arrived' || FM.activeJob.status==='in_progress' || FM.activeJob.status==='billed' || FM.activeJob.status==='paid'){ clearInterval(etaTimer); return; }
+    pct=Math.min(96,pct+7); mins=Math.max(1,mins-1);
+    document.getElementById('c-etaFill').style.width=pct+'%';
+    document.getElementById('c-etaText').textContent='Arriving in approximately '+mins+' min';
+    if(trackWorkerMarker){
+      const t=pct/100;
+      const lat=workerStart[0]+(homeLatLng[0]-workerStart[0])*t;
+      const lng=workerStart[1]+(homeLatLng[1]-workerStart[1])*t;
+      trackWorkerMarker.setLatLng([lat,lng]);
+    }
+  },1400);
+}
+function stopEtaSim(){ clearInterval(etaTimer); }
+
+/* ---------- boot ---------- */
+async function boot(){
+  await openFMDB();
+  loadThemes();
+  goC('c-splash'); goW('w-splash');
+  setTimeout(()=>{ goC('c-reg'); goW('w-reg'); }, 1600);
+}
+window.addEventListener('DOMContentLoaded', boot);
+document.addEventListener('click', function(e){
+  const ms=document.getElementById('w-msPanel');
+  if(ms && ms.classList.contains('open') && !e.target.closest('.multiselect')) ms.classList.remove('open');
+});
+
 </script>
- 
-</body></html>
+</body>
+</html>
